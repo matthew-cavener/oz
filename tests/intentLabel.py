@@ -1,8 +1,9 @@
 import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
-from sklearn.cluster import OPTICS
+import hdbscan
 import pprint
+from sklearn.datasets import make_blobs
 
 module_url = "./USELarge3"
 embed = hub.Module(module_url)
@@ -25,9 +26,7 @@ embed = hub.Module(module_url)
 #     embedding = session.run(embedded_text, feed_dict={text_input: [phrase]}).tolist()
 #     return embedding
 
-def similarity_matrix(data):
-    corpus = data['corpus']
-    embeddings = list(corpus.keys())
+def similarity_matrix(embeddings):
     return np.inner(embeddings, embeddings)
 
 def get_intents(filename):
@@ -43,10 +42,20 @@ def get_intents(filename):
                 intents.append(line.rstrip())
         return intents
 
-def generate_corpus(intents):
+def generate_embeddings(intents):
     with tf.Session() as session:
         session.run([tf.global_variables_initializer(), tf.tables_initializer()])
         embeddings = session.run(embed(intents))
-    corpus = dict(zip(embeddings, intents))
-    return corpus
+    return embeddings
+
+data = generate_embeddings(get_intents('smalltalk.md'))
+
+# blobs, labels = make_blobs(n_samples=2000, n_features=10)
+
+# data = similarity_matrix(data)
+
+clusterer = hdbscan.HDBSCAN(metric='euclidean', min_cluster_size=5)
+clusterer.fit(data)
+
+print(clusterer.labels_.max())
 
