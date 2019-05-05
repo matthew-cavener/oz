@@ -53,7 +53,7 @@ intents = get_intents('smalltalk.md')
 data = generate_embeddings(intents)
 # blobs, labels = make_blobs(n_samples=2000, n_features=10)
 
-# data = similarity_matrix(data)
+data = similarity_matrix(data)
 
 clusterer = hdbscan.HDBSCAN(metric='euclidean', min_cluster_size=5)
 clusterer.fit(data)
@@ -80,7 +80,8 @@ labelled_intents = labelled_intents(labelled_data, intents)
 
 pprint.pprint(labelled_intents)
 
-
+print(len(labelled_intents["-1"]))
+print(len(labelled_intents["8"]))
 
 with open("labelled_intents_clus5.json", "w") as labelled_intents_file:
     json.dump(labelled_intents, labelled_intents_file, indent=4, sort_keys=True)
