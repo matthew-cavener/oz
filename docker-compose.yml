@@ -8,3 +8,32 @@ services:
     volumes:
       - ./oz-server:/usr/src/app/oz-server
     command: gunicorn app:__hug_wsgi__ --reload -b 0.0.0.0:8080
+
+  rasa:
+    image: rasa/rasa:latest-full
+    networks: ['rasa-network']
+    ports:
+    - "5005:5005"
+    volumes:
+    - "./rasa/rasa-app-data/models:/app/models"
+    - "./rasa/rasa-app-data/config:/app/config"
+    - "./rasa/rasa-app-data/projects:/app/projects"
+    - "./rasa/rasa-app-data/logs:/app/logs"
+    - "./rasa/rasa-app-data/data:/app/data"
+    command: run nlu --path /app/projects --port 5005
+
+  action_server:
+    image: rasa/rasa_core_sdk:latest
+    networks: ['rasa-network']
+    ports:
+    - "5055:5055"
+    volumes:
+    - "./rasa/rasa-app-data/actions:/app/actions"
+
+  duckling:
+    image: rasa/duckling:latest
+    networks: ['rasa-network']
+    ports:
+    - "8000:8000"
+
+networks: {rasa-network: {}}

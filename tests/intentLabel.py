@@ -4,6 +4,7 @@ import numpy as np
 import hdbscan
 import pprint
 from sklearn.datasets import make_blobs
+import json
 
 module_url = "./USELarge3"
 embed = hub.Module(module_url)
@@ -48,8 +49,8 @@ def generate_embeddings(intents):
         embeddings = session.run(embed(intents))
     return embeddings
 
-data = generate_embeddings(get_intents('smalltalk.md'))
-
+intents = get_intents('smalltalk.md')
+data = generate_embeddings(intents)
 # blobs, labels = make_blobs(n_samples=2000, n_features=10)
 
 # data = similarity_matrix(data)
@@ -58,4 +59,29 @@ clusterer = hdbscan.HDBSCAN(metric='euclidean', min_cluster_size=5)
 clusterer.fit(data)
 
 print(clusterer.labels_.max())
+print(clusterer.labels_)
+print(clusterer.probabilities_)
+
+labelled_data = zip(data, clusterer.labels_, clusterer.probabilities_)
+
+def labelled_intents(labelled_data, intents):
+    labelled_intents = {}
+    i = 0
+    for item in labelled_data:
+        try:
+            labelled_intents[str(item[1])].append([intents[i], item[2]])
+            i += 1
+        except KeyError:
+            labelled_intents[str(item[1])] = [[intents[i], item[2]]]
+            i += 1
+    return labelled_intents
+
+labelled_intents = labelled_intents(labelled_data, intents)
+
+pprint.pprint(labelled_intents)
+
+
+
+with open("labelled_intents_clus5.json", "w") as labelled_intents_file:
+    json.dump(labelled_intents, labelled_intents_file, indent=4, sort_keys=True)
 

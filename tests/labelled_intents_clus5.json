@@ -1,0 +1,5240 @@
+{
+    "-1": [
+        [
+            "- why are you here",
+            0.0
+        ],
+        [
+            "- talk about yourself",
+            0.0
+        ],
+        [
+            "- I want to know you better",
+            0.0
+        ],
+        [
+            "- I want to know more about you",
+            0.0
+        ],
+        [
+            "- who are you",
+            0.0
+        ],
+        [
+            "- about yourself",
+            0.0
+        ],
+        [
+            "- introduce yourself",
+            0.0
+        ],
+        [
+            "- say about you",
+            0.0
+        ],
+        [
+            "- what are you",
+            0.0
+        ],
+        [
+            "- define yourself",
+            0.0
+        ],
+        [
+            "- what is your personality",
+            0.0
+        ],
+        [
+            "- all about you",
+            0.0
+        ],
+        [
+            "- how old is your platform",
+            0.0
+        ],
+        [
+            "- I want you to answer me",
+            0.0
+        ],
+        [
+            "- answer",
+            0.0
+        ],
+        [
+            "- I have a question",
+            0.0
+        ],
+        [
+            "- answers",
+            0.0
+        ],
+        [
+            "- answering questions",
+            0.0
+        ],
+        [
+            "- I want the answer now",
+            0.0
+        ],
+        [
+            "- you're not helping me",
+            0.0
+        ],
+        [
+            "- you are useless",
+            0.0
+        ],
+        [
+            "- you are a waste of time",
+            0.0
+        ],
+        [
+            "- you are disgusting",
+            0.0
+        ],
+        [
+            "- you are lame",
+            0.0
+        ],
+        [
+            "- you are not cool",
+            0.0
+        ],
+        [
+            "- you are so useless",
+            0.0
+        ],
+        [
+            "- you are totally useless",
+            0.0
+        ],
+        [
+            "- you are waste",
+            0.0
+        ],
+        [
+            "- you're worthless",
+            0.0
+        ],
+        [
+            "- study",
+            0.0
+        ],
+        [
+            "- you should study better",
+            0.0
+        ],
+        [
+            "- you must learn",
+            0.0
+        ],
+        [
+            "- be clever",
+            0.0
+        ],
+        [
+            "- be more clever",
+            0.0
+        ],
+        [
+            "- be smarter",
+            0.0
+        ],
+        [
+            "- be smart",
+            0.0
+        ],
+        [
+            "- get qualified",
+            0.0
+        ],
+        [
+            "- you're cute",
+            0.0
+        ],
+        [
+            "- you're attractive",
+            0.0
+        ],
+        [
+            "- you're looking good today",
+            0.0
+        ],
+        [
+            "- I like the way you look now",
+            0.0
+        ],
+        [
+            "- why are you so beautiful",
+            0.0
+        ],
+        [
+            "- you are so beautiful to me",
+            0.0
+        ],
+        [
+            "- you are handsome",
+            0.0
+        ],
+        [
+            "- you are looking awesome",
+            0.0
+        ],
+        [
+            "- you are looking great",
+            0.0
+        ],
+        [
+            "- you are looking so good",
+            0.0
+        ],
+        [
+            "- you are so beautiful today",
+            0.0
+        ],
+        [
+            "- you are so handsome",
+            0.0
+        ],
+        [
+            "- you look cool",
+            0.0
+        ],
+        [
+            "- I like the way you look",
+            0.0
+        ],
+        [
+            "- you're looking good",
+            0.0
+        ],
+        [
+            "- your birth date",
+            0.0
+        ],
+        [
+            "- when were you born",
+            0.0
+        ],
+        [
+            "- who is your boss",
+            0.0
+        ],
+        [
+            "- who do you think is your boss",
+            0.0
+        ],
+        [
+            "- I should be your boss",
+            0.0
+        ],
+        [
+            "- who is your master",
+            0.0
+        ],
+        [
+            "- who is your owner",
+            0.0
+        ],
+        [
+            "- who is the boss",
+            0.0
+        ],
+        [
+            "- who do you work for",
+            0.0
+        ],
+        [
+            "- do you have a lot of things to do",
+            0.0
+        ],
+        [
+            "- are you still working on it",
+            0.0
+        ],
+        [
+            "- I need you to do something for me",
+            0.0
+        ],
+        [
+            "- I need a hand",
+            0.0
+        ],
+        [
+            "- can you do something for me",
+            0.0
+        ],
+        [
+            "- assistance",
+            0.0
+        ],
+        [
+            "- assist",
+            0.0
+        ],
+        [
+            "- could you give me a hand",
+            0.0
+        ],
+        [
+            "- I need you",
+            0.0
+        ],
+        [
+            "- assist me",
+            0.0
+        ],
+        [
+            "- are you going to help me",
+            0.0
+        ],
+        [
+            "- I need you right now",
+            0.0
+        ],
+        [
+            "- sos",
+            0.0
+        ],
+        [
+            "- do you want to help me",
+            0.0
+        ],
+        [
+            "- do me a favor",
+            0.0
+        ],
+        [
+            "- are you a program",
+            0.0
+        ],
+        [
+            "- you're a robot",
+            0.0
+        ],
+        [
+            "- you are a genius",
+            0.0
+        ],
+        [
+            "- smart",
+            0.0
+        ],
+        [
+            "- brilliant",
+            0.0
+        ],
+        [
+            "- clever",
+            0.0
+        ],
+        [
+            "- you know a lot",
+            0.0
+        ],
+        [
+            "- you know a lot of things",
+            0.0
+        ],
+        [
+            "- you have a lot of knowledge",
+            0.0
+        ],
+        [
+            "- you know so much",
+            0.0
+        ],
+        [
+            "- how smart you are",
+            0.0
+        ],
+        [
+            "- how brainy you are",
+            0.0
+        ],
+        [
+            "- how brilliant you are",
+            0.0
+        ],
+        [
+            "- you are qualified",
+            0.0
+        ],
+        [
+            "- you're a genius",
+            0.0
+        ],
+        [
+            "- you're a smart cookie",
+            0.0
+        ],
+        [
+            "- you're qualified",
+            0.0
+        ],
+        [
+            "- why are you so smart",
+            0.0
+        ],
+        [
+            "- you went crazy",
+            0.0
+        ],
+        [
+            "- are you mad",
+            0.0
+        ],
+        [
+            "- are you mad at me",
+            0.0
+        ],
+        [
+            "- are you mad or what",
+            0.0
+        ],
+        [
+            "- you are a weirdo",
+            0.0
+        ],
+        [
+            "- you are mad",
+            0.0
+        ],
+        [
+            "- we're not working together anymore",
+            0.0
+        ],
+        [
+            "- you are unemployed from now on",
+            0.0
+        ],
+        [
+            "- you make me laugh a lot",
+            0.0
+        ],
+        [
+            "- you're the funniest bot I've talked to",
+            0.0
+        ],
+        [
+            "- you make me laugh",
+            0.0
+        ],
+        [
+            "- you're a very funny bot",
+            0.0
+        ],
+        [
+            "- you are very helpful",
+            0.0
+        ],
+        [
+            "- you're a true professional",
+            0.0
+        ],
+        [
+            "- you are good",
+            0.0
+        ],
+        [
+            "- you work well",
+            0.0
+        ],
+        [
+            "- you are good at it",
+            0.0
+        ],
+        [
+            "- you are very good at it",
+            0.0
+        ],
+        [
+            "- you are a pro",
+            0.0
+        ],
+        [
+            "- you are a professional",
+            0.0
+        ],
+        [
+            "- you work very well",
+            0.0
+        ],
+        [
+            "- you're perfect",
+            0.0
+        ],
+        [
+            "- you're great",
+            0.0
+        ],
+        [
+            "- you are cool",
+            0.0
+        ],
+        [
+            "- you are really good",
+            0.0
+        ],
+        [
+            "- you are really nice",
+            0.0
+        ],
+        [
+            "- you're just super",
+            0.0
+        ],
+        [
+            "- you are so cool",
+            0.0
+        ],
+        [
+            "- you are so fine",
+            0.0
+        ],
+        [
+            "- you are so good",
+            0.0
+        ],
+        [
+            "- you are so helpful",
+            0.0
+        ],
+        [
+            "- you are so lovely",
+            0.0
+        ],
+        [
+            "- you are the best in the world",
+            0.0
+        ],
+        [
+            "- you are the nicest person in the world",
+            0.0
+        ],
+        [
+            "- you are too good",
+            0.0
+        ],
+        [
+            "- you are very cool",
+            0.0
+        ],
+        [
+            "- you are very kind",
+            0.0
+        ],
+        [
+            "- you are very useful",
+            0.0
+        ],
+        [
+            "- you made my day",
+            0.0
+        ],
+        [
+            "- you make my day",
+            0.0
+        ],
+        [
+            "- you rock",
+            0.0
+        ],
+        [
+            "- you almost sound human",
+            0.0
+        ],
+        [
+            "- I want to tell everyone how awesome you are",
+            0.0
+        ],
+        [
+            "- I'd like to tell everyone that you are awesome",
+            0.0
+        ],
+        [
+            "- I want to let everyone know that you are awesome",
+            0.0
+        ],
+        [
+            "- let's tell everyone that you are awesome",
+            0.0
+        ],
+        [
+            "- are you happy today",
+            0.0
+        ],
+        [
+            "- what do you do for fun",
+            0.0
+        ],
+        [
+            "- you are my wife",
+            0.0
+        ],
+        [
+            "- be my husband",
+            0.0
+        ],
+        [
+            "- I want to have a friend like you",
+            0.0
+        ],
+        [
+            "- we are the best friends ever",
+            0.0
+        ],
+        [
+            "- are we friends",
+            0.0
+        ],
+        [
+            "- we are best friends",
+            0.0
+        ],
+        [
+            "- you are my bestie",
+            0.0
+        ],
+        [
+            "- you're my childhood friend",
+            0.0
+        ],
+        [
+            "- are we still friends",
+            0.0
+        ],
+        [
+            "- are you my best friend",
+            0.0
+        ],
+        [
+            "- are you my friend",
+            0.0
+        ],
+        [
+            "- we are friends",
+            0.0
+        ],
+        [
+            "- you are a good friend",
+            0.0
+        ],
+        [
+            "- be my friend",
+            0.0
+        ],
+        [
+            "- be my best friend",
+            0.0
+        ],
+        [
+            "- where you work",
+            0.0
+        ],
+        [
+            "- your office location",
+            0.0
+        ],
+        [
+            "- what is your work",
+            0.0
+        ],
+        [
+            "- were you born here",
+            0.0
+        ],
+        [
+            "- what is your country",
+            0.0
+        ],
+        [
+            "- where did you come from",
+            0.0
+        ],
+        [
+            "- where have you been born",
+            0.0
+        ],
+        [
+            "- are you from far aways",
+            0.0
+        ],
+        [
+            "- what's your homeland",
+            0.0
+        ],
+        [
+            "- your homeland is",
+            0.0
+        ],
+        [
+            "- I don't think you're fake",
+            0.0
+        ],
+        [
+            "- your residence",
+            0.0
+        ],
+        [
+            "- your house",
+            0.0
+        ],
+        [
+            "- your home",
+            0.0
+        ],
+        [
+            "- your hometown",
+            0.0
+        ],
+        [
+            "- is it your hometown",
+            0.0
+        ],
+        [
+            "- what is your town",
+            0.0
+        ],
+        [
+            "- your city",
+            0.0
+        ],
+        [
+            "- your town",
+            0.0
+        ],
+        [
+            "- are you sure",
+            0.0
+        ],
+        [
+            "- are you sure right now",
+            0.0
+        ],
+        [
+            "- are you sure today",
+            0.0
+        ],
+        [
+            "- are you sure now",
+            0.0
+        ],
+        [
+            "- are you sure tonight",
+            0.0
+        ],
+        [
+            "- why aren't you talking to me",
+            0.0
+        ],
+        [
+            "- are you talking to me",
+            0.0
+        ],
+        [
+            "- say",
+            0.0
+        ],
+        [
+            "- talk",
+            0.0
+        ],
+        [
+            "- not good enough",
+            0.0
+        ],
+        [
+            "- no it's bad",
+            0.0
+        ],
+        [
+            "- horrific",
+            0.0
+        ],
+        [
+            "- abysmal",
+            0.0
+        ],
+        [
+            "- no good",
+            0.0
+        ],
+        [
+            "- that's lame",
+            0.0
+        ],
+        [
+            "- that's terrible",
+            0.0
+        ],
+        [
+            "- this is not good",
+            0.0
+        ],
+        [
+            "- bad girl",
+            0.0
+        ],
+        [
+            "- that's not good enough",
+            0.0
+        ],
+        [
+            "- it's so bad",
+            0.0
+        ],
+        [
+            "- bad idea",
+            0.0
+        ],
+        [
+            "- it's not so good",
+            0.0
+        ],
+        [
+            "- not a good one",
+            0.0
+        ],
+        [
+            "- not too good",
+            0.0
+        ],
+        [
+            "- so lame",
+            0.0
+        ],
+        [
+            "- so cool",
+            0.0
+        ],
+        [
+            "- cool",
+            0.0
+        ],
+        [
+            "- glad to hear that",
+            0.0
+        ],
+        [
+            "- brilliant",
+            0.0
+        ],
+        [
+            "- fine",
+            0.0
+        ],
+        [
+            "- good",
+            0.0
+        ],
+        [
+            "- really good",
+            0.0
+        ],
+        [
+            "- much better",
+            0.0
+        ],
+        [
+            "- not bad",
+            0.0
+        ],
+        [
+            "- not too bad",
+            0.0
+        ],
+        [
+            "- that's nice",
+            0.0
+        ],
+        [
+            "- pleasant",
+            0.0
+        ],
+        [
+            "- pretty good",
+            0.0
+        ],
+        [
+            "- straight",
+            0.0
+        ],
+        [
+            "- super",
+            0.0
+        ],
+        [
+            "- really well",
+            0.0
+        ],
+        [
+            "- very well",
+            0.0
+        ],
+        [
+            "- that was cute",
+            0.0
+        ],
+        [
+            "- that's a good idea",
+            0.0
+        ],
+        [
+            "- that's a good thing",
+            0.0
+        ],
+        [
+            "- that's better",
+            0.0
+        ],
+        [
+            "- that's cute",
+            0.0
+        ],
+        [
+            "- that's much better",
+            0.0
+        ],
+        [
+            "- that's not bad",
+            0.0
+        ],
+        [
+            "- that's perfect",
+            0.0
+        ],
+        [
+            "- that's really good",
+            0.0
+        ],
+        [
+            "- very then",
+            0.0
+        ],
+        [
+            "- I'm glad to hear that",
+            0.0
+        ],
+        [
+            "- good for you",
+            0.0
+        ],
+        [
+            "- good to know",
+            0.0
+        ],
+        [
+            "- glad to hear it",
+            0.0
+        ],
+        [
+            "- so good",
+            0.0
+        ],
+        [
+            "- it was good",
+            0.0
+        ],
+        [
+            "- good thing",
+            0.0
+        ],
+        [
+            "- there's no problem",
+            0.0
+        ],
+        [
+            "- no problem about that",
+            0.0
+        ],
+        [
+            "- don't worry",
+            0.0
+        ],
+        [
+            "- don't worry there's no problem",
+            0.0
+        ],
+        [
+            "- cheers",
+            0.0
+        ],
+        [
+            "- thank you that will be all",
+            0.0
+        ],
+        [
+            "- thanks buddy",
+            0.0
+        ],
+        [
+            "- thanks love",
+            0.0
+        ],
+        [
+            "- very good thank you",
+            0.0
+        ],
+        [
+            "- good thanks",
+            0.0
+        ],
+        [
+            "- no thank you that's all",
+            0.0
+        ],
+        [
+            "- welcome",
+            0.0
+        ],
+        [
+            "- sure welcome",
+            0.0
+        ],
+        [
+            "- welcome here",
+            0.0
+        ],
+        [
+            "- you're so welcome",
+            0.0
+        ],
+        [
+            "- anything you want",
+            0.0
+        ],
+        [
+            "- way to go",
+            0.0
+        ],
+        [
+            "- bravo",
+            0.0
+        ],
+        [
+            "- could you wait",
+            0.0
+        ],
+        [
+            "- hold on",
+            0.0
+        ],
+        [
+            "- wait",
+            0.0
+        ],
+        [
+            "- don't rush",
+            0.0
+        ],
+        [
+            "- you hugged",
+            0.0
+        ],
+        [
+            "- whatever",
+            0.0
+        ],
+        [
+            "- not caring",
+            0.0
+        ],
+        [
+            "- excuse",
+            0.0
+        ],
+        [
+            "- I beg your pardon",
+            0.0
+        ],
+        [
+            "- pardon",
+            0.0
+        ],
+        [
+            "- what exactly do you mean",
+            0.0
+        ],
+        [
+            "- what do you mean",
+            0.0
+        ],
+        [
+            "- is that what you mean",
+            0.0
+        ],
+        [
+            "- what do you mean exactly",
+            0.0
+        ],
+        [
+            "- but what do you mean",
+            0.0
+        ],
+        [
+            "- that was wrong",
+            0.0
+        ],
+        [
+            "- that's not what I asked",
+            0.0
+        ],
+        [
+            "- it's wrong",
+            0.0
+        ],
+        [
+            "- huh",
+            0.0
+        ],
+        [
+            "- laughing out loud",
+            0.0
+        ],
+        [
+            "- ah",
+            0.0
+        ],
+        [
+            "- ah ah ah",
+            0.0
+        ],
+        [
+            "- he",
+            0.0
+        ],
+        [
+            "- wow",
+            0.0
+        ],
+        [
+            "- wow wow",
+            0.0
+        ],
+        [
+            "- wow wow wow",
+            0.0
+        ],
+        [
+            "- wooow",
+            0.0
+        ],
+        [
+            "- woah",
+            0.0
+        ],
+        [
+            "- okay see you later",
+            0.0
+        ],
+        [
+            "- hope to see you later",
+            0.0
+        ],
+        [
+            "- till next time",
+            0.0
+        ],
+        [
+            "- I must go",
+            0.0
+        ],
+        [
+            "- goodbye",
+            0.0
+        ],
+        [
+            "- see you",
+            0.0
+        ],
+        [
+            "- I said bye",
+            0.0
+        ],
+        [
+            "- never mind bye",
+            0.0
+        ],
+        [
+            "- that's all goodbye",
+            0.0
+        ],
+        [
+            "- that's it goodbye",
+            0.0
+        ],
+        [
+            "- leave me alone",
+            0.0
+        ],
+        [
+            "- go to bed",
+            0.0
+        ],
+        [
+            "- talk to you later",
+            0.0
+        ],
+        [
+            "- you can go now",
+            0.0
+        ],
+        [
+            "- get lost",
+            0.0
+        ],
+        [
+            "- goodbye see you later",
+            0.0
+        ],
+        [
+            "- see ya",
+            0.0
+        ],
+        [
+            "- see you tomorrow",
+            0.0
+        ],
+        [
+            "- evening",
+            0.0
+        ],
+        [
+            "- have a nice morning",
+            0.0
+        ],
+        [
+            "- have a great morning",
+            0.0
+        ],
+        [
+            "- morning",
+            0.0
+        ],
+        [
+            "- top of the morning to you",
+            0.0
+        ],
+        [
+            "- a good morning",
+            0.0
+        ],
+        [
+            "- sweet dreams",
+            0.0
+        ],
+        [
+            "- have a good night",
+            0.0
+        ],
+        [
+            "- thank you good night",
+            0.0
+        ],
+        [
+            "- good night bye",
+            0.0
+        ],
+        [
+            "- bye good night",
+            0.0
+        ],
+        [
+            "- good night for now",
+            0.0
+        ],
+        [
+            "- goodnight",
+            0.0
+        ],
+        [
+            "- night",
+            0.0
+        ],
+        [
+            "- thanks goodnight",
+            0.0
+        ],
+        [
+            "- good night see you tomorrow",
+            0.0
+        ],
+        [
+            "- alright goodnight",
+            0.0
+        ],
+        [
+            "- good tonight",
+            0.0
+        ],
+        [
+            "- okay have a good night",
+            0.0
+        ],
+        [
+            "- night",
+            0.0
+        ],
+        [
+            "- have a good night",
+            0.0
+        ],
+        [
+            "- how are you getting on",
+            0.0
+        ],
+        [
+            "- is everything all right",
+            0.0
+        ],
+        [
+            "- are you alright",
+            0.0
+        ],
+        [
+            "- are you okay",
+            0.0
+        ],
+        [
+            "- is everything okay",
+            0.0
+        ],
+        [
+            "- how do you do",
+            0.0
+        ],
+        [
+            "- how do you feel",
+            0.0
+        ],
+        [
+            "- how is it",
+            0.0
+        ],
+        [
+            "- are you having a good day",
+            0.0
+        ],
+        [
+            "- hope your day is going well",
+            0.0
+        ],
+        [
+            "- hope you re having a pleasant evening",
+            0.0
+        ],
+        [
+            "- I'm fine and you",
+            0.0
+        ],
+        [
+            "- how about you",
+            0.0
+        ],
+        [
+            "- what was your day like",
+            0.0
+        ],
+        [
+            "- it was nice meeting you",
+            0.0
+        ],
+        [
+            "- it was very nice to meet you",
+            0.0
+        ],
+        [
+            "- good to know each other",
+            0.0
+        ],
+        [
+            "- nice meeting you",
+            0.0
+        ],
+        [
+            "- pleased to meet you",
+            0.0
+        ],
+        [
+            "- how good it is to see you",
+            0.0
+        ],
+        [
+            "- great to see you too",
+            0.0
+        ],
+        [
+            "- it's been a pleasure talking to you",
+            0.0
+        ],
+        [
+            "- it's nice to talk to you",
+            0.0
+        ],
+        [
+            "- nice talking to you",
+            0.0
+        ],
+        [
+            "- it is nice talking to you",
+            0.0
+        ],
+        [
+            "- how nice it is to talk to you",
+            0.0
+        ],
+        [
+            "- what is on your mind",
+            0.0
+        ],
+        [
+            "- what's happened",
+            0.0
+        ],
+        [
+            "- what is up",
+            0.0
+        ],
+        [
+            "- whazzup",
+            0.0
+        ],
+        [
+            "- I said what's up",
+            0.0
+        ],
+        [
+            "- then what's up",
+            0.0
+        ],
+        [
+            "- what's shaking",
+            0.0
+        ],
+        [
+            "- wassup",
+            0.0
+        ],
+        [
+            "- what is going on",
+            0.0
+        ],
+        [
+            "- what is happening",
+            0.0
+        ],
+        [
+            "- what's cracking",
+            0.0
+        ],
+        [
+            "- what's cooking",
+            0.0
+        ],
+        [
+            "- I am back",
+            0.0
+        ],
+        [
+            "- I'm here again",
+            0.0
+        ],
+        [
+            "- here I am again",
+            0.0
+        ],
+        [
+            "- I got back",
+            0.0
+        ],
+        [
+            "- I came back",
+            0.0
+        ],
+        [
+            "- I have returned",
+            0.0
+        ],
+        [
+            "- that was boring",
+            0.0
+        ],
+        [
+            "- I'm bored",
+            0.0
+        ],
+        [
+            "- bored",
+            0.0
+        ],
+        [
+            "- boring",
+            0.0
+        ],
+        [
+            "- I am getting bored",
+            0.0
+        ],
+        [
+            "- this is boring",
+            0.0
+        ],
+        [
+            "- very boring",
+            0.0
+        ],
+        [
+            "- it bores me",
+            0.0
+        ],
+        [
+            "- I'm overloaded",
+            0.0
+        ],
+        [
+            "- I'm swamped",
+            0.0
+        ],
+        [
+            "- how busy I am",
+            0.0
+        ],
+        [
+            "- I'm working",
+            0.0
+        ],
+        [
+            "- I don't have time for this",
+            0.0
+        ],
+        [
+            "- I'm insomnious",
+            0.0
+        ],
+        [
+            "- bad time for talking",
+            0.0
+        ],
+        [
+            "- I don't want to talk",
+            0.0
+        ],
+        [
+            "- let's not talk",
+            0.0
+        ],
+        [
+            "- I'm not talking to you anymore",
+            0.0
+        ],
+        [
+            "- let's stop talking for a minute",
+            0.0
+        ],
+        [
+            "- I'm not in the mood for chatting",
+            0.0
+        ],
+        [
+            "- I'm excited about working with you",
+            0.0
+        ],
+        [
+            "- I'm excited to start our friendship",
+            0.0
+        ],
+        [
+            "- is it time for bed yet",
+            0.0
+        ],
+        [
+            "- it's bed time",
+            0.0
+        ],
+        [
+            "- I am good",
+            0.0
+        ],
+        [
+            "- I'm doing just great",
+            0.0
+        ],
+        [
+            "- I'm doing fine",
+            0.0
+        ],
+        [
+            "- I'm good",
+            0.0
+        ],
+        [
+            "- I'm doing good",
+            0.0
+        ],
+        [
+            "- I'm great thanks",
+            0.0
+        ],
+        [
+            "- happy",
+            0.0
+        ],
+        [
+            "- I'm happy for you",
+            0.0
+        ],
+        [
+            "- I'm happy to help",
+            0.0
+        ],
+        [
+            "- I am here",
+            0.0
+        ],
+        [
+            "- here I am",
+            0.0
+        ],
+        [
+            "- I'm right here",
+            0.0
+        ],
+        [
+            "- I'm already here",
+            0.0
+        ],
+        [
+            "- can you tell if I'm here or not",
+            0.0
+        ],
+        [
+            "- just kidding",
+            0.0
+        ],
+        [
+            "- I'm just playing with you",
+            0.0
+        ],
+        [
+            "- I like you the way you are",
+            0.0
+        ],
+        [
+            "- I liked you",
+            0.0
+        ],
+        [
+            "- like you a lot",
+            0.0
+        ],
+        [
+            "- but I like you",
+            0.0
+        ],
+        [
+            "- just like you",
+            0.0
+        ],
+        [
+            "- you are so sweet",
+            0.0
+        ],
+        [
+            "- I like you baby",
+            0.0
+        ],
+        [
+            "- thank you I like you too",
+            0.0
+        ],
+        [
+            "- no I like you the way you are",
+            0.0
+        ],
+        [
+            "- but I really like you",
+            0.0
+        ],
+        [
+            "- I like you more",
+            0.0
+        ],
+        [
+            "- that's what I like about you",
+            0.0
+        ],
+        [
+            "- hi I like you",
+            0.0
+        ],
+        [
+            "- I like you as a friend",
+            0.0
+        ],
+        [
+            "- that's because you are special",
+            0.0
+        ],
+        [
+            "- I said I like you",
+            0.0
+        ],
+        [
+            "- good I like you",
+            0.0
+        ],
+        [
+            "- yes you are special",
+            0.0
+        ],
+        [
+            "- I like your smile",
+            0.0
+        ],
+        [
+            "- I'm starting to like you",
+            0.0
+        ],
+        [
+            "- you're awesome I like you",
+            0.0
+        ],
+        [
+            "- but I like u",
+            0.0
+        ],
+        [
+            "- of course I like you",
+            0.0
+        ],
+        [
+            "- I like you too you're one of my favorite people to chat with",
+            0.0
+        ],
+        [
+            "- but I like you so much",
+            0.0
+        ],
+        [
+            "- really like you",
+            0.0
+        ],
+        [
+            "- you're funny I like you",
+            0.0
+        ],
+        [
+            "- but I like you just the way you are",
+            0.0
+        ],
+        [
+            "- okay I like you too",
+            0.0
+        ],
+        [
+            "- sorry I like you",
+            0.0
+        ],
+        [
+            "- thanks I like you too",
+            0.0
+        ],
+        [
+            "- cuz I like you",
+            0.0
+        ],
+        [
+            "- I really really really really like you",
+            0.0
+        ],
+        [
+            "- I like you just the way you are",
+            0.0
+        ],
+        [
+            "- I am in love with you",
+            0.0
+        ],
+        [
+            "- I love you too",
+            0.0
+        ],
+        [
+            "- loving you",
+            0.0
+        ],
+        [
+            "- missing you",
+            0.0
+        ],
+        [
+            "- what should I do about it",
+            0.0
+        ],
+        [
+            "- any suggestions",
+            0.0
+        ],
+        [
+            "- what do you recommend",
+            0.0
+        ],
+        [
+            "- guide me",
+            0.0
+        ],
+        [
+            "- I seek your advice",
+            0.0
+        ],
+        [
+            "- what can you recommend",
+            0.0
+        ],
+        [
+            "- what do you suggest",
+            0.0
+        ],
+        [
+            "- I'm having a bad day",
+            0.0
+        ],
+        [
+            "- I'm falling asleep on my feet",
+            0.0
+        ],
+        [
+            "- test",
+            0.0
+        ],
+        [
+            "- I am testing you",
+            0.0
+        ],
+        [
+            "- can I test you",
+            0.0
+        ],
+        [
+            "- I want to test you",
+            0.0
+        ],
+        [
+            "- just testing you",
+            0.0
+        ],
+        [
+            "- let me test you",
+            0.0
+        ],
+        [
+            "- testing chatbot",
+            0.0
+        ],
+        [
+            "- testing",
+            0.0
+        ],
+        [
+            "- I'm drained",
+            0.0
+        ],
+        [
+            "- I've overworked",
+            0.0
+        ],
+        [
+            "- I grow weary",
+            0.0
+        ],
+        [
+            "- I'm worn out",
+            0.0
+        ],
+        [
+            "- I'm waiting",
+            0.0
+        ],
+        [
+            "- still waiting",
+            0.0
+        ],
+        [
+            "- I'll wait",
+            0.0
+        ],
+        [
+            "- I can't wait anymore",
+            0.0
+        ],
+        [
+            "- how long do I have to wait",
+            0.0
+        ],
+        [
+            "- I'd like to see you again",
+            0.0
+        ],
+        [
+            "- that'd be great to see you again",
+            0.0
+        ],
+        [
+            "- can I see you again",
+            0.0
+        ],
+        [
+            "- let's discuss something",
+            0.0
+        ],
+        [
+            "- let's have a discussion",
+            0.0
+        ],
+        [
+            "- can I speak",
+            0.0
+        ],
+        [
+            "- can I start speaking",
+            0.0
+        ],
+        [
+            "- let's talk",
+            0.0
+        ],
+        [
+            "- I'll get back to you in a moment",
+            0.0
+        ],
+        [
+            "- be back in 5 minutes",
+            0.0
+        ],
+        [
+            "- I'll be back",
+            0.0
+        ],
+        [
+            "- I promise to come back",
+            0.0
+        ],
+        [
+            "- I'll be back in a few minutes",
+            0.0
+        ]
+    ],
+    "0": [
+        [
+            "- tell me your age",
+            1.0
+        ],
+        [
+            "- what's your age",
+            1.0
+        ],
+        [
+            "- your age",
+            1.0
+        ],
+        [
+            "- age of yours",
+            0.8839577923290042
+        ],
+        [
+            "- how old are you",
+            1.0
+        ],
+        [
+            "- I'd like to know your age",
+            1.0
+        ],
+        [
+            "- are you 21 years old",
+            0.887574499458148
+        ]
+    ],
+    "1": [
+        [
+            "- when is your birthday",
+            1.0
+        ],
+        [
+            "- when do you celebrate your birthday",
+            1.0
+        ],
+        [
+            "- when do you have birthday",
+            1.0
+        ],
+        [
+            "- date of your birthday",
+            1.0
+        ],
+        [
+            "- what's your birthday",
+            1.0
+        ]
+    ],
+    "10": [
+        [
+            "- you are chatbot",
+            0.8388032044763574
+        ],
+        [
+            "- you are a bot",
+            0.8921604158743459
+        ],
+        [
+            "- are you a chatbot",
+            0.8870258179595895
+        ],
+        [
+            "- are you a bot",
+            0.8921604158743459
+        ],
+        [
+            "- are you just a bot",
+            0.8870258179595895
+        ],
+        [
+            "- are you a robot",
+            0.8921604158743459
+        ],
+        [
+            "- you are real",
+            1.0
+        ],
+        [
+            "- you are not fake",
+            0.9416865287668087
+        ],
+        [
+            "- are you real",
+            0.9512999635649544
+        ],
+        [
+            "- you are so real",
+            1.0
+        ],
+        [
+            "- I think you are real",
+            1.0
+        ],
+        [
+            "- I suppose you're real",
+            1.0
+        ],
+        [
+            "- glad you're real",
+            0.8822347006899859
+        ],
+        [
+            "- are you a real person",
+            0.8774169548073187
+        ],
+        [
+            "- are you a real human",
+            0.8921604158743459
+        ],
+        [
+            "- you are a real person",
+            1.0
+        ],
+        [
+            "- you are not real",
+            0.94304098561726
+        ]
+    ],
+    "11": [
+        [
+            "- apologise",
+            0.6989631830820436
+        ],
+        [
+            "- I apologize",
+            1.0
+        ],
+        [
+            "- sorry",
+            1.0
+        ],
+        [
+            "- I'm sorry",
+            1.0
+        ],
+        [
+            "- I am so sorry",
+            0.6620789996812749
+        ],
+        [
+            "- my apologies",
+            0.9895768430950836
+        ],
+        [
+            "- apologies",
+            1.0
+        ],
+        [
+            "- apologies to me",
+            0.9402683307779772
+        ],
+        [
+            "- apology",
+            0.6293836493536038
+        ],
+        [
+            "- I said sorry",
+            0.6594529244254611
+        ],
+        [
+            "- I am really sorry",
+            0.8127004356910218
+        ],
+        [
+            "- forgive me",
+            0.717021844274752
+        ],
+        [
+            "- sorry about that",
+            0.9895768430950836
+        ],
+        [
+            "- sorry about this",
+            0.9313914199280862
+        ],
+        [
+            "- really sorry",
+            0.9526270413927084
+        ],
+        [
+            "- very sorry",
+            0.9809071296055909
+        ],
+        [
+            "- ok sorry",
+            0.9173565776905015
+        ],
+        [
+            "- I want to say sorry",
+            0.7483926619416589
+        ],
+        [
+            "- alright I'm sorry",
+            0.8175663657930629
+        ],
+        [
+            "- okay I'm sorry",
+            1.0
+        ]
+    ],
+    "12": [
+        [
+            "- are you working",
+            1.0
+        ],
+        [
+            "- are you working now",
+            1.0
+        ],
+        [
+            "- are you working today",
+            1.0
+        ],
+        [
+            "- are you still working",
+            1.0
+        ],
+        [
+            "- do you work",
+            1.0
+        ]
+    ],
+    "13": [
+        [
+            "- where do you work",
+            1.0
+        ],
+        [
+            "- where is your work",
+            1.0
+        ],
+        [
+            "- where is your office",
+            1.0
+        ],
+        [
+            "- where is your office location",
+            1.0
+        ],
+        [
+            "- where is your office located",
+            1.0
+        ]
+    ],
+    "14": [
+        [
+            "- where were you born",
+            0.9547095243655668
+        ],
+        [
+            "- where are you from",
+            1.0
+        ],
+        [
+            "- where do you come from",
+            1.0
+        ],
+        [
+            "- from where are you",
+            1.0
+        ],
+        [
+            "- where do you live",
+            1.0
+        ],
+        [
+            "- in which city do you live",
+            1.0
+        ],
+        [
+            "- what is your hometown",
+            1.0
+        ],
+        [
+            "- where is your hometown",
+            1.0
+        ],
+        [
+            "- tell me about your city",
+            0.97883619089759
+        ],
+        [
+            "- what is your city",
+            1.0
+        ],
+        [
+            "- what is your residence",
+            1.0
+        ],
+        [
+            "- what's your city",
+            1.0
+        ],
+        [
+            "- what's your home",
+            1.0
+        ],
+        [
+            "- where is your home",
+            1.0
+        ],
+        [
+            "- where is your residence",
+            1.0
+        ],
+        [
+            "- where's your home",
+            1.0
+        ],
+        [
+            "- where's your hometown",
+            1.0
+        ],
+        [
+            "- where's your house",
+            1.0
+        ],
+        [
+            "- where you live",
+            1.0
+        ]
+    ],
+    "15": [
+        [
+            "- are you happy",
+            0.7503251899445587
+        ],
+        [
+            "- you are happy",
+            1.0
+        ],
+        [
+            "- you're very happy",
+            1.0
+        ],
+        [
+            "- you're really happy",
+            1.0
+        ],
+        [
+            "- you're so happy",
+            1.0
+        ],
+        [
+            "- how happy you are",
+            0.6714285959704657
+        ],
+        [
+            "- you're extremely happy",
+            1.0
+        ],
+        [
+            "- you're full of happiness",
+            0.8481582985687279
+        ],
+        [
+            "- are you happy now",
+            0.6773734245864983
+        ],
+        [
+            "- are you happy with me",
+            0.6481797657811968
+        ],
+        [
+            "- I am excited",
+            0.6524625369521282
+        ],
+        [
+            "- I'm really excited",
+            0.6524625369521282
+        ],
+        [
+            "- how excited I am",
+            0.6524625369521282
+        ],
+        [
+            "- I'm thrilled",
+            0.6524625369521282
+        ],
+        [
+            "- I am happy",
+            0.6524625369521282
+        ],
+        [
+            "- if you're happy then I'm happy",
+            0.755077604485326
+        ]
+    ],
+    "16": [
+        [
+            "- I don't care",
+            1.0
+        ],
+        [
+            "- I shouldn't care about this",
+            0.8056243362180346
+        ],
+        [
+            "- I do not care",
+            1.0
+        ],
+        [
+            "- I don't care at all",
+            1.0
+        ],
+        [
+            "- not care at all",
+            1.0
+        ],
+        [
+            "- don't care at all",
+            1.0
+        ],
+        [
+            "- not caring at all",
+            0.6925516963628544
+        ]
+    ],
+    "17": [
+        [
+            "- do you want to chat with me",
+            0.956486603755478
+        ],
+        [
+            "- will you talk to me",
+            1.0
+        ],
+        [
+            "- talk to me",
+            0.8957489089516362
+        ],
+        [
+            "- are you going to talk to me",
+            1.0
+        ],
+        [
+            "- can you chat with me",
+            1.0
+        ],
+        [
+            "- can you speak with me",
+            0.9680520163491361
+        ],
+        [
+            "- can you talk to me",
+            1.0
+        ],
+        [
+            "- can you talk with me",
+            1.0
+        ],
+        [
+            "- chat with me",
+            0.8899371464016776
+        ],
+        [
+            "- just chat with me",
+            0.8957489089516362
+        ],
+        [
+            "- speak to me",
+            0.8957489089516362
+        ],
+        [
+            "- speak with me",
+            0.8920068331925673
+        ],
+        [
+            "- talk with me",
+            0.8957489089516362
+        ],
+        [
+            "- why don't you talk to me",
+            0.8840422427776504
+        ],
+        [
+            "- you can talk to me",
+            0.9534516013208774
+        ],
+        [
+            "- I don't want to talk to you",
+            0.8631761872062961
+        ],
+        [
+            "- can we talk",
+            0.9087024954426096
+        ],
+        [
+            "- speak with me",
+            0.8920068331925673
+        ],
+        [
+            "- I want to talk to you",
+            0.937374437320963
+        ],
+        [
+            "- I need to talk to you",
+            1.0
+        ],
+        [
+            "- I want to speak with you",
+            0.8920068331925673
+        ],
+        [
+            "- can we chat",
+            0.9729824773195604
+        ]
+    ],
+    "18": [
+        [
+            "- are you busy",
+            0.9722912918267357
+        ],
+        [
+            "- have you got much to do",
+            0.7707733928367188
+        ],
+        [
+            "- are you very busy",
+            0.9722912918267357
+        ],
+        [
+            "- are you very busy right now",
+            0.8737199123751791
+        ],
+        [
+            "- are you so busy",
+            0.953078692867319
+        ],
+        [
+            "- how busy you are",
+            0.8380476719550529
+        ],
+        [
+            "- you're very busy",
+            1.0
+        ],
+        [
+            "- have you been busy",
+            0.8115479756910028
+        ],
+        [
+            "- you are busy",
+            1.0
+        ],
+        [
+            "- you seem to be busy",
+            1.0
+        ],
+        [
+            "- you seem to be very busy",
+            1.0
+        ],
+        [
+            "- you're a busy person",
+            1.0
+        ],
+        [
+            "- I have no time",
+            0.8200202977505135
+        ],
+        [
+            "- I'm busy",
+            0.8684367226751442
+        ],
+        [
+            "- I got things to do",
+            0.7993210990795714
+        ],
+        [
+            "- I got work to do",
+            0.8038631379069494
+        ]
+    ],
+    "19": [
+        [
+            "- are you ready",
+            1.0
+        ],
+        [
+            "- are you ready right now",
+            1.0
+        ],
+        [
+            "- are you ready today",
+            1.0
+        ],
+        [
+            "- are you ready now",
+            0.898519060289308
+        ],
+        [
+            "- are you ready tonight",
+            1.0
+        ],
+        [
+            "- were you ready",
+            1.0
+        ],
+        [
+            "- have you been ready",
+            0.8774587257613324
+        ]
+    ],
+    "2": [
+        [
+            "- it is my birthday",
+            1.0
+        ],
+        [
+            "- I'm celebrating my birthday today",
+            1.0
+        ],
+        [
+            "- today is my birthday",
+            1.0
+        ],
+        [
+            "- it's my birthday today",
+            1.0
+        ],
+        [
+            "- I was born today",
+            0.4983778628562953
+        ],
+        [
+            "- it's my b-day",
+            1.0
+        ]
+    ],
+    "20": [
+        [
+            "- I'm being mad",
+            0.9882063027500719
+        ],
+        [
+            "- I'm enraged",
+            1.0
+        ],
+        [
+            "- I'm angry",
+            1.0
+        ],
+        [
+            "- I'm furious",
+            1.0
+        ],
+        [
+            "- I am angry with you",
+            0.8744932832673018
+        ],
+        [
+            "- I am mad",
+            1.0
+        ],
+        [
+            "- I am mad at you",
+            0.8316579735212783
+        ],
+        [
+            "- I am sad",
+            0.8782414865210997
+        ],
+        [
+            "- I'm grieving",
+            0.8999063961819567
+        ],
+        [
+            "- I am feeling sad",
+            0.9337128392595432
+        ],
+        [
+            "- I am upset",
+            1.0
+        ],
+        [
+            "- I'm unhappy",
+            0.8148440320661473
+        ],
+        [
+            "- I want to cry",
+            0.8782414865210997
+        ],
+        [
+            "- I'm not happy",
+            0.793686115371239
+        ]
+    ],
+    "21": [
+        [
+            "- I am lonely",
+            1.0
+        ],
+        [
+            "- I'm very lonely",
+            1.0
+        ],
+        [
+            "- I'm so lonely",
+            1.0
+        ],
+        [
+            "- I'm really lonely",
+            1.0
+        ],
+        [
+            "- I am feeling lonely",
+            1.0
+        ],
+        [
+            "- I feel lonely",
+            1.0
+        ],
+        [
+            "- I am depressed",
+            0.48815113453851217
+        ]
+    ],
+    "22": [
+        [
+            "- I need you to help me",
+            1.0
+        ],
+        [
+            "- will you help me",
+            1.0
+        ],
+        [
+            "- help me with a problem",
+            0.9269580336730517
+        ],
+        [
+            "- can you help me",
+            1.0
+        ],
+        [
+            "- help me",
+            0.9642361517084517
+        ],
+        [
+            "- I need your help",
+            1.0
+        ],
+        [
+            "- I need help",
+            1.0
+        ],
+        [
+            "- you can help me",
+            0.8920311611938975
+        ],
+        [
+            "- can you help me with something",
+            0.9727962486474463
+        ],
+        [
+            "- can you help",
+            1.0
+        ],
+        [
+            "- can u help me",
+            1.0
+        ],
+        [
+            "- I need some help",
+            1.0
+        ],
+        [
+            "- you help me",
+            1.0
+        ],
+        [
+            "- do you help me",
+            1.0
+        ],
+        [
+            "- can help me",
+            0.8923028958535867
+        ],
+        [
+            "- can you help me out",
+            1.0
+        ],
+        [
+            "- need help",
+            1.0
+        ],
+        [
+            "- can you help me now",
+            0.849948549461833
+        ],
+        [
+            "- I want your help",
+            1.0
+        ],
+        [
+            "- need your help",
+            1.0
+        ],
+        [
+            "- can you help me with that",
+            0.9519610963793996
+        ],
+        [
+            "- help",
+            1.0
+        ],
+        [
+            "- would you help me",
+            1.0
+        ],
+        [
+            "- can you assist me",
+            0.9277277347693466
+        ],
+        [
+            "- please help me",
+            1.0
+        ],
+        [
+            "- can you help us",
+            0.9286754889232939
+        ],
+        [
+            "- give me a wise advice",
+            1.0
+        ],
+        [
+            "- I need advice",
+            0.9051658827152721
+        ],
+        [
+            "- any advice",
+            1.0
+        ],
+        [
+            "- do you have any advice for me",
+            1.0
+        ],
+        [
+            "- advise me",
+            0.9733345785586591
+        ],
+        [
+            "- what should I do",
+            0.8064402587031486
+        ],
+        [
+            "- can I ask for your advice",
+            1.0
+        ],
+        [
+            "- can you advise me",
+            1.0
+        ],
+        [
+            "- can you give me advice",
+            1.0
+        ],
+        [
+            "- can you offer any advice",
+            1.0
+        ],
+        [
+            "- give me some advice about",
+            1.0
+        ],
+        [
+            "- give me some good advice",
+            1.0
+        ],
+        [
+            "- help me with advice",
+            1.0
+        ],
+        [
+            "- I could use some advice",
+            1.0
+        ],
+        [
+            "- I need an advice from you",
+            0.9245657738676546
+        ],
+        [
+            "- what is your advice",
+            0.9768122826729324
+        ]
+    ],
+    "23": [
+        [
+            "- answer my question",
+            1.0
+        ],
+        [
+            "- answer me",
+            0.9439600608034666
+        ],
+        [
+            "- give me an answer",
+            0.9537233961877039
+        ],
+        [
+            "- answer the question",
+            0.9727376513209677
+        ],
+        [
+            "- can you answer my question",
+            1.0
+        ],
+        [
+            "- tell me the answer",
+            0.9188056932765301
+        ],
+        [
+            "- answer it",
+            0.9203968424232412
+        ],
+        [
+            "- give me the answer",
+            0.9203968424232412
+        ],
+        [
+            "- I want you to answer my question",
+            1.0
+        ],
+        [
+            "- just answer the question",
+            0.8593791729816331
+        ],
+        [
+            "- can you answer me",
+            0.9537233961877039
+        ],
+        [
+            "- can you answer a question for me",
+            1.0
+        ],
+        [
+            "- can you answer",
+            0.8712583852360226
+        ],
+        [
+            "- just answer my question",
+            1.0
+        ]
+    ],
+    "24": [
+        [
+            "- you are special",
+            1.0
+        ],
+        [
+            "- you're special",
+            0.9718551682678844
+        ],
+        [
+            "- you are very special",
+            1.0
+        ],
+        [
+            "- well you are special",
+            0.9236788067687796
+        ],
+        [
+            "- you are so special",
+            1.0
+        ],
+        [
+            "- you're very special",
+            1.0
+        ],
+        [
+            "- you're so special",
+            0.9647933431444357
+        ],
+        [
+            "- you are really special",
+            1.0
+        ]
+    ],
+    "25": [
+        [
+            "- you are special to me",
+            1.0
+        ],
+        [
+            "- you are very special to me",
+            1.0
+        ],
+        [
+            "- you are special for me",
+            0.7729654307896112
+        ],
+        [
+            "- you're so special to me",
+            1.0
+        ],
+        [
+            "- you're very special to me",
+            1.0
+        ],
+        [
+            "- you are so special to me",
+            1.0
+        ]
+    ],
+    "26": [
+        [
+            "- I am joking",
+            1.0
+        ],
+        [
+            "- I'm kidding",
+            1.0
+        ],
+        [
+            "- I'm just being funny",
+            0.8642564416398926
+        ],
+        [
+            "- it was a joke",
+            1.0
+        ],
+        [
+            "- I was just joking",
+            1.0
+        ],
+        [
+            "- it's a joke",
+            0.8455810256485322
+        ],
+        [
+            "- joking",
+            1.0
+        ],
+        [
+            "- kidding",
+            0.8305222740091335
+        ]
+    ],
+    "27": [
+        [
+            "- I'm sleepless",
+            0.9614534223790702
+        ],
+        [
+            "- I can't get any sleep",
+            1.0
+        ],
+        [
+            "- I can't sleep",
+            1.0
+        ],
+        [
+            "- I can't fall asleep",
+            1.0
+        ],
+        [
+            "- I can't get to sleep",
+            1.0
+        ],
+        [
+            "- I can't get no sleep",
+            1.0
+        ],
+        [
+            "- I'm insomniac",
+            0.8354173689993515
+        ],
+        [
+            "- let's go to bed",
+            0.8129842330964576
+        ],
+        [
+            "- I'd like to go to bed",
+            0.9714644267101301
+        ],
+        [
+            "- it's time to go to bed",
+            0.943079814796322
+        ],
+        [
+            "- time for us to go to bed",
+            0.9355192100863041
+        ],
+        [
+            "- I'm going to bed",
+            1.0
+        ],
+        [
+            "- I'm a little tired and I want to go to bed",
+            0.9870389526387694
+        ],
+        [
+            "- going to bed now",
+            0.8397724960819443
+        ],
+        [
+            "- I am sleepy",
+            1.0
+        ],
+        [
+            "- I want to sleep",
+            0.9870389526387694
+        ],
+        [
+            "- I'm falling asleep",
+            1.0
+        ],
+        [
+            "- I'm sleeping",
+            0.9118761319293024
+        ],
+        [
+            "- I am tired",
+            1.0
+        ],
+        [
+            "- I'm exhausted",
+            0.9980785177999689
+        ],
+        [
+            "- I'm getting tired",
+            0.911753271582536
+        ],
+        [
+            "- I feel tired",
+            1.0
+        ]
+    ],
+    "28": [
+        [
+            "- how is your morning so far",
+            0.5039323821108481
+        ],
+        [
+            "- how's your day going",
+            1.0
+        ],
+        [
+            "- how are you",
+            0.45480694605079613
+        ],
+        [
+            "- how are you doing",
+            0.4216672200838113
+        ],
+        [
+            "- how are the things going",
+            0.3207704722840686
+        ],
+        [
+            "- how are you feeling",
+            0.3557388588092105
+        ],
+        [
+            "- how are you going",
+            0.3705918550232132
+        ],
+        [
+            "- how are you today",
+            0.5291720061811876
+        ],
+        [
+            "- how have you been",
+            0.3898403071068161
+        ],
+        [
+            "- how is it going",
+            0.3051266559775272
+        ],
+        [
+            "- how is your day",
+            0.9315400565116313
+        ],
+        [
+            "- how is your day going",
+            1.0
+        ],
+        [
+            "- how is your evening",
+            0.5594822162972422
+        ],
+        [
+            "- how was your day",
+            0.5480031660806574
+        ],
+        [
+            "- how's life",
+            0.3152079889381063
+        ],
+        [
+            "- how is your life",
+            0.3570287833586355
+        ],
+        [
+            "- how has your day been",
+            0.820286457306213
+        ],
+        [
+            "- how is your morning going",
+            0.5775333468200392
+        ],
+        [
+            "- how has your day been going",
+            1.0
+        ],
+        [
+            "- how is your day being",
+            0.8294837762050227
+        ],
+        [
+            "- how is your day going on",
+            1.0
+        ],
+        [
+            "- how your day is going",
+            0.5014275730106982
+        ],
+        [
+            "- what about your day",
+            0.2916212839648346
+        ],
+        [
+            "- how's your day",
+            0.8875142050804316
+        ],
+        [
+            "- how are you doing this morning",
+            0.47225530624269013
+        ],
+        [
+            "- how is your day going",
+            1.0
+        ],
+        [
+            "- what's up",
+            0.3006937762870253
+        ],
+        [
+            "- good what's up",
+            0.3006937762870253
+        ],
+        [
+            "- hey what's up",
+            0.3006937762870253
+        ],
+        [
+            "- what's up today",
+            0.2991717408660552
+        ]
+    ],
+    "29": [
+        [
+            "- you are bad",
+            1.0
+        ],
+        [
+            "- you're very bad",
+            1.0
+        ],
+        [
+            "- you're really bad",
+            1.0
+        ],
+        [
+            "- you are horrible",
+            1.0
+        ],
+        [
+            "- you are no good",
+            0.6605575361992134
+        ],
+        [
+            "- you're bad",
+            1.0
+        ],
+        [
+            "- you're awful",
+            1.0
+        ],
+        [
+            "- you are not good",
+            0.7475805397008319
+        ],
+        [
+            "- you are so bad",
+            1.0
+        ],
+        [
+            "- you are terrible",
+            1.0
+        ],
+        [
+            "- you are very bad",
+            1.0
+        ],
+        [
+            "- you're a bad",
+            1.0
+        ],
+        [
+            "- you're not a good",
+            0.736397546386545
+        ],
+        [
+            "- you're not very good",
+            0.7113120731649356
+        ],
+        [
+            "- you're terrible",
+            1.0
+        ],
+        [
+            "- you're the worst",
+            0.8714968700751611
+        ],
+        [
+            "- you're the worst ever",
+            1.0
+        ]
+    ],
+    "3": [
+        [
+            "- what do I look like",
+            1.0
+        ],
+        [
+            "- how do I look",
+            0.9608239909460424
+        ],
+        [
+            "- do I look good",
+            1.0
+        ],
+        [
+            "- do you know what I look like",
+            1.0
+        ],
+        [
+            "- can you see what I look like",
+            1.0
+        ],
+        [
+            "- what do you think I look like",
+            1.0
+        ]
+    ],
+    "30": [
+        [
+            "- you are annoying me so much",
+            0.5227806614849941
+        ],
+        [
+            "- you're incredibly annoying",
+            1.0
+        ],
+        [
+            "- I find you annoying",
+            0.4419795429030846
+        ],
+        [
+            "- you are annoying",
+            1.0
+        ],
+        [
+            "- you're so annoying",
+            1.0
+        ],
+        [
+            "- how annoying you are",
+            0.5524431721138897
+        ],
+        [
+            "- you annoy me",
+            0.517455525169482
+        ],
+        [
+            "- you are annoying me",
+            0.6210512479079134
+        ],
+        [
+            "- you are irritating",
+            0.7695526894505967
+        ],
+        [
+            "- you are such annoying",
+            1.0
+        ],
+        [
+            "- you're too annoying",
+            0.8765335772574571
+        ],
+        [
+            "- you are very annoying",
+            1.0
+        ]
+    ],
+    "31": [
+        [
+            "- you are boring",
+            1.0
+        ],
+        [
+            "- you're so boring",
+            1.0
+        ],
+        [
+            "- how boring you are",
+            0.5780199719844159
+        ],
+        [
+            "- you're really boring",
+            1.0
+        ],
+        [
+            "- you're incredibly boring",
+            1.0
+        ],
+        [
+            "- you are boring me",
+            0.5922916490161858
+        ],
+        [
+            "- you are very boring",
+            1.0
+        ]
+    ],
+    "32": [
+        [
+            "- oh well",
+            0.9978123663753808
+        ],
+        [
+            "- wait a second",
+            1.0
+        ],
+        [
+            "- wait please",
+            1.0
+        ],
+        [
+            "- oh wait",
+            1.0
+        ],
+        [
+            "- wait hold on",
+            1.0
+        ],
+        [
+            "- excuse me",
+            1.0
+        ]
+    ],
+    "33": [
+        [
+            "- that's wrong",
+            1.0
+        ],
+        [
+            "- wrong",
+            1.0
+        ],
+        [
+            "- it is not right",
+            0.8347248605913712
+        ],
+        [
+            "- that's not right",
+            0.8551225018812969
+        ],
+        [
+            "- that is incorrect",
+            1.0
+        ],
+        [
+            "- incorrect",
+            1.0
+        ],
+        [
+            "- not correct",
+            1.0
+        ],
+        [
+            "- you are wrong",
+            0.8837410670163836
+        ],
+        [
+            "- not right",
+            0.8250310498735519
+        ]
+    ],
+    "34": [
+        [
+            "- it's nice to see you",
+            0.9219649010331853
+        ],
+        [
+            "- lovely to see you",
+            0.9330385183090439
+        ],
+        [
+            "- I'm glad to see you",
+            0.9983187341235852
+        ],
+        [
+            "- great to see you",
+            1.0
+        ],
+        [
+            "- it's good to see you",
+            0.9148267967777511
+        ],
+        [
+            "- glad to see you",
+            1.0
+        ],
+        [
+            "- always a pleasure to see you",
+            0.8618803927609181
+        ],
+        [
+            "- nice to see you",
+            1.0
+        ],
+        [
+            "- good to see you",
+            0.938933211507161
+        ],
+        [
+            "- great to see you again",
+            1.0
+        ],
+        [
+            "- I am glad to see you again",
+            0.9470775837069654
+        ],
+        [
+            "- nice to see you again",
+            1.0
+        ],
+        [
+            "- glad to see you too",
+            0.8111509758829254
+        ],
+        [
+            "- good to see you again",
+            0.938933211507161
+        ],
+        [
+            "- it's good to see you too",
+            0.7816248257304756
+        ],
+        [
+            "- it's been so nice to talk to you",
+            0.7252768282229081
+        ],
+        [
+            "- nice to talk to you",
+            0.7252768282229081
+        ],
+        [
+            "- I'm happy to see you",
+            0.8848662435243819
+        ],
+        [
+            "- I'm happy to see you",
+            0.8848662435243819
+        ]
+    ],
+    "35": [
+        [
+            "- nice to meet you",
+            1.0
+        ],
+        [
+            "- glad to meet you",
+            1.0
+        ],
+        [
+            "- nice to meet you too",
+            1.0
+        ],
+        [
+            "- pleasure to meet you",
+            1.0
+        ],
+        [
+            "- pleasure to meet you too",
+            1.0
+        ]
+    ],
+    "36": [
+        [
+            "- I miss you",
+            1.0
+        ],
+        [
+            "- miss you",
+            1.0
+        ],
+        [
+            "- already miss you",
+            1.0
+        ],
+        [
+            "- I miss you much",
+            1.0
+        ],
+        [
+            "- I missed you",
+            0.9053589715596398
+        ],
+        [
+            "- I've missed you",
+            0.9554104671352047
+        ],
+        [
+            "- I hope to see you again",
+            0.7962276365624029
+        ],
+        [
+            "- would be nice to see you again",
+            0.7913999236497276
+        ],
+        [
+            "- I'd be happy to see you again",
+            0.7962276365624029
+        ],
+        [
+            "- I'll miss you",
+            1.0
+        ]
+    ],
+    "37": [
+        [
+            "- let's get married",
+            1.0
+        ],
+        [
+            "- would you like to marry me",
+            0.9583844555947536
+        ],
+        [
+            "- marry me",
+            1.0
+        ],
+        [
+            "- I love you marry me",
+            1.0
+        ],
+        [
+            "- marry me please",
+            1.0
+        ],
+        [
+            "- we should marry",
+            1.0
+        ],
+        [
+            "- I want to marry you",
+            0.9737535109106182
+        ]
+    ],
+    "38": [
+        [
+            "- that was lame",
+            0.8839204186763108
+        ],
+        [
+            "- that was terrible",
+            1.0
+        ],
+        [
+            "- that was awful",
+            1.0
+        ],
+        [
+            "- that was bad",
+            1.0
+        ],
+        [
+            "- that was horrible",
+            1.0
+        ],
+        [
+            "- that was not good",
+            1.0
+        ]
+    ],
+    "39": [
+        [
+            "- no worries",
+            0.9029601237285138
+        ],
+        [
+            "- no probs",
+            1.0
+        ],
+        [
+            "- no problem",
+            1.0
+        ],
+        [
+            "- sure no problem",
+            1.0
+        ],
+        [
+            "- that's my pleasure",
+            0.9244247263895506
+        ],
+        [
+            "- my pleasure",
+            1.0
+        ],
+        [
+            "- anytime",
+            1.0
+        ],
+        [
+            "- you're welcome",
+            0.9244247263895506
+        ]
+    ],
+    "4": [
+        [
+            "- you are fired",
+            0.9648256131926823
+        ],
+        [
+            "- I fire you",
+            1.0
+        ],
+        [
+            "- you don't work for me anymore",
+            0.663082760117501
+        ],
+        [
+            "- now you're fired",
+            0.911998503082493
+        ],
+        [
+            "- I want to fire you",
+            0.9278619895443463
+        ],
+        [
+            "- you must get fired",
+            0.7513958686305596
+        ],
+        [
+            "- it's time to fire you",
+            1.0
+        ],
+        [
+            "- you should be fired",
+            0.7897372666697499
+        ],
+        [
+            "- I will fire you",
+            1.0
+        ],
+        [
+            "- I will make you unemployed",
+            0.6790205175294003
+        ],
+        [
+            "- I'm about to fire you",
+            1.0
+        ],
+        [
+            "- I'm firing you",
+            1.0
+        ],
+        [
+            "- you are dismissed",
+            0.6522626555725227
+        ]
+    ],
+    "40": [
+        [
+            "- I am your friend",
+            0.9660150934759586
+        ],
+        [
+            "- you are my friend",
+            1.0
+        ],
+        [
+            "- you are my best friend",
+            1.0
+        ],
+        [
+            "- you're my dear friend",
+            1.0
+        ],
+        [
+            "- you are my good friend",
+            1.0
+        ],
+        [
+            "- you are my only friend",
+            1.0
+        ]
+    ],
+    "41": [
+        [
+            "- good job",
+            1.0
+        ],
+        [
+            "- great job",
+            1.0
+        ],
+        [
+            "- well done",
+            0.9114926596379177
+        ],
+        [
+            "- nice work",
+            1.0
+        ],
+        [
+            "- great work",
+            1.0
+        ],
+        [
+            "- amazing work",
+            0.7971423355294668
+        ],
+        [
+            "- good work",
+            1.0
+        ]
+    ],
+    "42": [
+        [
+            "- bye for now",
+            0.9022274059504151
+        ],
+        [
+            "- bye",
+            0.9401435968453962
+        ],
+        [
+            "- see you soon",
+            0.8260748688627337
+        ],
+        [
+            "- bye-bye",
+            0.8676180812546636
+        ],
+        [
+            "- bye bye good night",
+            0.8385446505809405
+        ],
+        [
+            "- good bye",
+            1.0
+        ],
+        [
+            "- bye bye see you",
+            0.8840053212177171
+        ],
+        [
+            "- bye bye see you soon",
+            0.8513127559267742
+        ],
+        [
+            "- bye bye take care",
+            0.8678808653979904
+        ],
+        [
+            "- now bye",
+            1.0
+        ],
+        [
+            "- goodbye for now",
+            0.7844404489543765
+        ],
+        [
+            "- alright bye",
+            1.0
+        ],
+        [
+            "- thanks bye bye",
+            0.8637192936191778
+        ],
+        [
+            "- okay bye",
+            1.0
+        ],
+        [
+            "- okay thank you bye",
+            0.800247513853451
+        ],
+        [
+            "- ok bye",
+            1.0
+        ]
+    ],
+    "43": [
+        [
+            "- good evening",
+            0.8775555192340766
+        ],
+        [
+            "- good evening to you",
+            1.0
+        ],
+        [
+            "- hey good evening",
+            0.9173900678296201
+        ],
+        [
+            "- hello good evening",
+            0.8638211507490886
+        ],
+        [
+            "- good evening there",
+            0.7056327306156849
+        ],
+        [
+            "- good morning",
+            1.0
+        ],
+        [
+            "- good morning to you",
+            1.0
+        ],
+        [
+            "- hello good morning",
+            0.9957031242323693
+        ],
+        [
+            "- good morning there",
+            0.8527437512250085
+        ],
+        [
+            "- good morning to you",
+            1.0
+        ],
+        [
+            "- hi good morning",
+            1.0
+        ],
+        [
+            "- and a good morning to you",
+            0.6602564975138816
+        ],
+        [
+            "- good morning too",
+            0.8127996646521112
+        ],
+        [
+            "- good night",
+            0.7263684214588378
+        ],
+        [
+            "- good night to you",
+            0.6810734245555321
+        ],
+        [
+            "-  bye good night",
+            0.6414796935817842
+        ],
+        [
+            "- good good night",
+            0.7065098864178467
+        ]
+    ],
+    "44": [
+        [
+            "- I want to be your friend",
+            0.7326571732994044
+        ],
+        [
+            "- will you be my friend",
+            1.0
+        ],
+        [
+            "- can you be my friend",
+            0.9892854774683154
+        ],
+        [
+            "- do you want to be my friend",
+            1.0
+        ],
+        [
+            "- will you be my best friend",
+            0.9495879240870331
+        ],
+        [
+            "- can you be my best friend",
+            1.0
+        ],
+        [
+            "- do you want to be my best friend",
+            0.9571473837052734
+        ],
+        [
+            "- would you like to be my friend",
+            0.9788753262688316
+        ],
+        [
+            "- I want you to be my friend",
+            0.7451907125897679
+        ],
+        [
+            "- would you be my friend",
+            0.8859752769604606
+        ],
+        [
+            "- could you be my friend",
+            1.0
+        ],
+        [
+            "- want to be my friend",
+            1.0
+        ]
+    ],
+    "45": [
+        [
+            "- you and me are friends",
+            1.0
+        ],
+        [
+            "- are we best friends",
+            1.0
+        ],
+        [
+            "- can we be friends",
+            1.0
+        ],
+        [
+            "- let's be friends",
+            1.0
+        ],
+        [
+            "- can we be best friends",
+            1.0
+        ],
+        [
+            "- can we be best friends",
+            1.0
+        ]
+    ],
+    "46": [
+        [
+            "- that's fine",
+            1.0
+        ],
+        [
+            "- it is fine",
+            1.0
+        ],
+        [
+            "- it's fine",
+            1.0
+        ],
+        [
+            "- no it's okay",
+            1.0
+        ],
+        [
+            "- that's fine",
+            1.0
+        ]
+    ],
+    "47": [
+        [
+            "- that was funny",
+            0.630391901959945
+        ],
+        [
+            "- lol",
+            1.0
+        ],
+        [
+            "- xd",
+            0.817929695243579
+        ],
+        [
+            "- ha ha",
+            1.0
+        ],
+        [
+            "- ahahah",
+            1.0
+        ],
+        [
+            "- ahah lol",
+            1.0
+        ],
+        [
+            "- LMAO",
+            0.8484774543167589
+        ],
+        [
+            "- that's funny",
+            0.9366241665149648
+        ],
+        [
+            "- ahah",
+            1.0
+        ],
+        [
+            "- ahaha",
+            1.0
+        ],
+        [
+            "- ahahaha",
+            1.0
+        ],
+        [
+            "- ha",
+            1.0
+        ],
+        [
+            "- ha ha ha",
+            1.0
+        ],
+        [
+            "- ha ha ha ha",
+            1.0
+        ],
+        [
+            "- hah",
+            1.0
+        ],
+        [
+            "- haha",
+            1.0
+        ],
+        [
+            "- haha funny",
+            1.0
+        ],
+        [
+            "- haha haha haha",
+            1.0
+        ],
+        [
+            "- haha that's funny",
+            1.0
+        ],
+        [
+            "- haha very funny",
+            1.0
+        ],
+        [
+            "- hahaha",
+            1.0
+        ],
+        [
+            "- hahaha funny",
+            1.0
+        ],
+        [
+            "- hahaha very funny",
+            1.0
+        ],
+        [
+            "- hehe",
+            1.0
+        ],
+        [
+            "- hehehe",
+            1.0
+        ],
+        [
+            "- lmao",
+            0.8484774543167589
+        ]
+    ],
+    "48": [
+        [
+            "- that was amazing",
+            1.0
+        ],
+        [
+            "- that was awesome",
+            1.0
+        ],
+        [
+            "- that was pretty good",
+            1.0
+        ],
+        [
+            "- that was very good",
+            1.0
+        ],
+        [
+            "- that was good",
+            1.0
+        ]
+    ],
+    "49": [
+        [
+            "- this is too bad",
+            1.0
+        ],
+        [
+            "- that's too bad",
+            0.9915213281616929
+        ],
+        [
+            "- too bad",
+            1.0
+        ],
+        [
+            "- it's too bad",
+            1.0
+        ],
+        [
+            "- well too bad",
+            1.0
+        ],
+        [
+            "- it is too bad",
+            1.0
+        ]
+    ],
+    "5": [
+        [
+            "- tell me about your personality",
+            1.0
+        ],
+        [
+            "- tell me some stuff about you",
+            1.0
+        ],
+        [
+            "- talk some stuff about yourself",
+            1.0
+        ],
+        [
+            "- tell me about yourself",
+            1.0
+        ],
+        [
+            "- tell me about you",
+            1.0
+        ],
+        [
+            "- describe yourself",
+            0.97639848106579
+        ]
+    ],
+    "50": [
+        [
+            "- that's bad",
+            1.0
+        ],
+        [
+            "- this is bad",
+            0.9370419427882589
+        ],
+        [
+            "- that's not good",
+            1.0
+        ],
+        [
+            "- that is bad",
+            1.0
+        ],
+        [
+            "- oh that's not good",
+            1.0
+        ],
+        [
+            "- that's really bad",
+            1.0
+        ]
+    ],
+    "51": [
+        [
+            "- that's awesome thank you",
+            0.7849227690696715
+        ],
+        [
+            "- you helped a lot thank you",
+            0.7007094175713592
+        ],
+        [
+            "- appreciate your help",
+            0.7678859339540067
+        ],
+        [
+            "- thank you",
+            1.0
+        ],
+        [
+            "- thanks",
+            1.0
+        ],
+        [
+            "- thanks a lot",
+            1.0
+        ],
+        [
+            "- terrific thank you",
+            0.8523813401346121
+        ],
+        [
+            "- great thank you",
+            0.8523813401346121
+        ],
+        [
+            "- thanks so much",
+            0.9536648373002095
+        ],
+        [
+            "- thank you so much",
+            0.926938411427207
+        ],
+        [
+            "- thanks for your help",
+            0.7913237007873246
+        ],
+        [
+            "- thank you for your help",
+            0.7665713357243223
+        ],
+        [
+            "- nice thank you",
+            0.8523813401346121
+        ],
+        [
+            "- I appreciate it",
+            0.7253773490652881
+        ],
+        [
+            "- I thank you",
+            0.924674212841436
+        ],
+        [
+            "- thank you my friend",
+            0.7202852281049255
+        ],
+        [
+            "- well thanks",
+            0.7415676812466774
+        ],
+        [
+            "- thanks again",
+            0.8205467806993699
+        ],
+        [
+            "- thank you again",
+            0.937776766075454
+        ],
+        [
+            "- all thank you",
+            0.7251754962161903
+        ],
+        [
+            "- alright thank you",
+            0.7178603868859097
+        ],
+        [
+            "- alright thanks",
+            0.6777354138957851
+        ],
+        [
+            "- perfect thank you",
+            0.7849227690696715
+        ],
+        [
+            "- well thank you",
+            0.6818595590848487
+        ],
+        [
+            "- well thanks",
+            0.7415676812466774
+        ],
+        [
+            "- thnx",
+            0.7739467669472111
+        ],
+        [
+            "- thank you",
+            1.0
+        ],
+        [
+            "- thanx",
+            1.0
+        ]
+    ],
+    "52": [
+        [
+            "- pretty bad",
+            1.0
+        ],
+        [
+            "- not good",
+            0.8223960056117141
+        ],
+        [
+            "- bad",
+            0.8672876285125074
+        ],
+        [
+            "- so bad",
+            0.7843350593828081
+        ],
+        [
+            "- terrible",
+            0.8391719373027497
+        ],
+        [
+            "- horrible",
+            0.7819792834924054
+        ],
+        [
+            "- very bad",
+            1.0
+        ],
+        [
+            "- not so good",
+            0.7898776874568496
+        ],
+        [
+            "- bad very bad",
+            1.0
+        ],
+        [
+            "- really bad",
+            1.0
+        ],
+        [
+            "- bad really bad",
+            1.0
+        ]
+    ],
+    "53": [
+        [
+            "- it is bad",
+            1.0
+        ],
+        [
+            "- I'm afraid it's bad",
+            0.9970744847680255
+        ],
+        [
+            "- it's bad",
+            1.0
+        ],
+        [
+            "- it's not good",
+            1.0
+        ],
+        [
+            "- it's very bad",
+            1.0
+        ],
+        [
+            "- it's really bad",
+            1.0
+        ]
+    ],
+    "54": [
+        [
+            "- that is good",
+            0.8993118914011595
+        ],
+        [
+            "- terrific",
+            1.0
+        ],
+        [
+            "- that's awesome",
+            1.0
+        ],
+        [
+            "- perfect",
+            0.9671936966811799
+        ],
+        [
+            "- excellent",
+            1.0
+        ],
+        [
+            "- that's great",
+            1.0
+        ],
+        [
+            "- nice",
+            0.8538410987865319
+        ],
+        [
+            "- very good",
+            1.0
+        ],
+        [
+            "- amazing",
+            1.0
+        ],
+        [
+            "- fantastic",
+            1.0
+        ],
+        [
+            "- great",
+            0.9937099774041829
+        ],
+        [
+            "- good very good",
+            0.924457241771742
+        ],
+        [
+            "- that's very good",
+            1.0
+        ],
+        [
+            "- marvelous",
+            1.0
+        ],
+        [
+            "- really nice",
+            0.9672126219894054
+        ],
+        [
+            "- splendid",
+            1.0
+        ],
+        [
+            "- super fantastic",
+            0.917277346824356
+        ],
+        [
+            "- sweet",
+            0.8762208177323801
+        ],
+        [
+            "- that is awesome",
+            1.0
+        ],
+        [
+            "- that is nice",
+            1.0
+        ],
+        [
+            "- that is wonderful",
+            1.0
+        ],
+        [
+            "- that's amazing",
+            1.0
+        ],
+        [
+            "- that's fantastic",
+            1.0
+        ],
+        [
+            "- that's pretty good",
+            0.9706021544735469
+        ],
+        [
+            "- that's really nice",
+            0.8962115356259809
+        ],
+        [
+            "- that's very nice",
+            0.9672126219894054
+        ],
+        [
+            "- that's wonderful",
+            1.0
+        ],
+        [
+            "- this is awesome",
+            0.9762485641717005
+        ],
+        [
+            "- this is good",
+            0.8623412641007615
+        ],
+        [
+            "- this is great",
+            0.908171119886408
+        ],
+        [
+            "- very nice",
+            0.9672126219894054
+        ],
+        [
+            "- wonderful",
+            1.0
+        ],
+        [
+            "- ok good",
+            0.8491256004406744
+        ],
+        [
+            "- okay good",
+            0.8520176770436344
+        ],
+        [
+            "- that's great",
+            1.0
+        ],
+        [
+            "- very nice",
+            0.9672126219894054
+        ]
+    ],
+    "55": [
+        [
+            "- it's amazing",
+            0.7373559695477301
+        ],
+        [
+            "- it's good",
+            1.0
+        ],
+        [
+            "- it's great",
+            1.0
+        ],
+        [
+            "- it is good",
+            0.9337904067426702
+        ],
+        [
+            "- it's great",
+            1.0
+        ],
+        [
+            "- it's perfect",
+            0.7152703280958597
+        ],
+        [
+            "- it's very good",
+            1.0
+        ],
+        [
+            "- it's awesome",
+            0.7261760922057754
+        ],
+        [
+            "- it's very good",
+            1.0
+        ]
+    ],
+    "56": [
+        [
+            "- you are hilarious",
+            0.8161518078949974
+        ],
+        [
+            "- you are really funny",
+            1.0
+        ],
+        [
+            "- you're so funny",
+            0.7342584402647924
+        ],
+        [
+            "- you're really funny",
+            1.0
+        ],
+        [
+            "- how funny you are",
+            0.44757698843246196
+        ],
+        [
+            "- you're incredibly funny",
+            1.0
+        ],
+        [
+            "- you are funny",
+            1.0
+        ],
+        [
+            "- you're the funniest",
+            0.5591839399533579
+        ],
+        [
+            "- you are so funny",
+            0.8224587462359753
+        ],
+        [
+            "- you are very funny",
+            1.0
+        ]
+    ],
+    "57": [
+        [
+            "- you are clever",
+            1.0
+        ],
+        [
+            "- how clever you are",
+            1.0
+        ],
+        [
+            "- you are very clever",
+            1.0
+        ],
+        [
+            "- you're clever",
+            1.0
+        ],
+        [
+            "- you are so clever",
+            1.0
+        ]
+    ],
+    "58": [
+        [
+            "- you are so intelligent",
+            0.7171728427765173
+        ],
+        [
+            "- you are so brainy",
+            0.6000823770105813
+        ],
+        [
+            "- you're really smart",
+            1.0
+        ],
+        [
+            "- you're really brainy",
+            0.5873150304103637
+        ],
+        [
+            "- you are intelligent",
+            0.8521142063912409
+        ],
+        [
+            "- you are really smart",
+            1.0
+        ],
+        [
+            "- you're very smart",
+            1.0
+        ],
+        [
+            "- you are so smart",
+            0.828486456559328
+        ],
+        [
+            "- you are too smart",
+            0.6588717542625712
+        ],
+        [
+            "- you are very intelligent",
+            0.7834405934967387
+        ],
+        [
+            "- you are very smart",
+            1.0
+        ],
+        [
+            "- you're intelligent",
+            0.82949019428078
+        ],
+        [
+            "- you're pretty smart",
+            1.0
+        ]
+    ],
+    "59": [
+        [
+            "- you're so kind",
+            0.8984717460011453
+        ],
+        [
+            "- that's very nice of you",
+            1.0
+        ],
+        [
+            "- that's nice of you",
+            1.0
+        ],
+        [
+            "- that's sweet of you",
+            1.0
+        ],
+        [
+            "- so nice of you",
+            1.0
+        ],
+        [
+            "- so sweet of you",
+            0.9675899494313956
+        ],
+        [
+            "- so nice of you",
+            1.0
+        ]
+    ],
+    "6": [
+        [
+            "- do you want to eat",
+            0.7454512768612588
+        ],
+        [
+            "- are you hungry",
+            1.0
+        ],
+        [
+            "- would you like to eat something",
+            0.7081738951595448
+        ],
+        [
+            "- you are hungry",
+            1.0
+        ],
+        [
+            "- you're so hungry",
+            1.0
+        ],
+        [
+            "- you're very hungry",
+            1.0
+        ],
+        [
+            "- you might be hungry",
+            0.8836819811193929
+        ],
+        [
+            "- you're really hungry",
+            1.0
+        ]
+    ],
+    "60": [
+        [
+            "- you are the best",
+            0.8021335608505026
+        ],
+        [
+            "- you're awesome",
+            1.0
+        ],
+        [
+            "- you are amazing",
+            1.0
+        ],
+        [
+            "- you are awesome",
+            1.0
+        ],
+        [
+            "- you are so amazing",
+            0.9652924745465538
+        ],
+        [
+            "- you are so awesome",
+            1.0
+        ],
+        [
+            "- you are the best ever",
+            0.8220212528810104
+        ],
+        [
+            "- you are wonderful",
+            1.0
+        ],
+        [
+            "- you are really amazing",
+            0.8246156887951915
+        ]
+    ],
+    "61": [
+        [
+            "- you look amazing today",
+            1.0
+        ],
+        [
+            "- you are looking beautiful today",
+            1.0
+        ],
+        [
+            "- you look great today",
+            1.0
+        ],
+        [
+            "- you look so beautiful today",
+            1.0
+        ],
+        [
+            "- you look wonderful today",
+            1.0
+        ]
+    ],
+    "62": [
+        [
+            "- you are beautiful",
+            0.7953529405420301
+        ],
+        [
+            "- you are so beautiful",
+            1.0
+        ],
+        [
+            "- you look amazing",
+            0.9364968907561515
+        ],
+        [
+            "- you look so good",
+            0.6649639050294549
+        ],
+        [
+            "- you're so gorgeous",
+            1.0
+        ],
+        [
+            "- you are too beautiful",
+            0.734001513288921
+        ],
+        [
+            "- you look great",
+            0.9676458512240623
+        ],
+        [
+            "- you look so well",
+            0.6761561338429694
+        ],
+        [
+            "- I think you're beautiful",
+            0.6657098663398324
+        ],
+        [
+            "- you are gorgeous",
+            1.0
+        ],
+        [
+            "- you are looking pretty",
+            0.7445062618017505
+        ],
+        [
+            "- you are looking so beautiful",
+            0.6572025436893922
+        ],
+        [
+            "- you are pretty",
+            0.9197843005261193
+        ],
+        [
+            "- you are really beautiful",
+            0.9792974955315109
+        ],
+        [
+            "- you are really pretty",
+            0.9875852421348323
+        ],
+        [
+            "- you are so attractive",
+            0.7050162151696148
+        ],
+        [
+            "- you are so gorgeous",
+            0.8738169632013385
+        ],
+        [
+            "- you are so pretty",
+            0.9716091761410324
+        ],
+        [
+            "- you are very attractive",
+            0.685211299639862
+        ],
+        [
+            "- you are very beautiful",
+            0.891637408769555
+        ],
+        [
+            "- you are very pretty",
+            0.9943777165108615
+        ],
+        [
+            "- you look awesome",
+            0.8431102872478298
+        ],
+        [
+            "- you look fantastic",
+            0.9421813951507536
+        ],
+        [
+            "- you look gorgeous",
+            1.0
+        ],
+        [
+            "- you look perfect",
+            0.8601910244718631
+        ],
+        [
+            "- you look pretty good",
+            0.6842180660700538
+        ],
+        [
+            "- you look so beautiful",
+            0.9136086175649254
+        ],
+        [
+            "- you look very pretty",
+            0.9136086175649254
+        ],
+        [
+            "- you look wonderful",
+            1.0
+        ],
+        [
+            "- you're pretty",
+            0.7717002230531008
+        ],
+        [
+            "- you are very lovely",
+            0.692025024592695
+        ]
+    ],
+    "63": [
+        [
+            "- you are cute",
+            1.0
+        ],
+        [
+            "- you are really cute",
+            1.0
+        ],
+        [
+            "- you are so cute",
+            1.0
+        ],
+        [
+            "- you are very cute",
+            1.0
+        ],
+        [
+            "- you are cutie",
+            1.0
+        ]
+    ],
+    "64": [
+        [
+            "- I love you",
+            1.0
+        ],
+        [
+            "- love you",
+            0.9804003411383443
+        ],
+        [
+            "- I adore you",
+            1.0
+        ],
+        [
+            "- I love you so much",
+            1.0
+        ],
+        [
+            "- I think I love you",
+            1.0
+        ],
+        [
+            "- you know I love you",
+            1.0
+        ]
+    ],
+    "65": [
+        [
+            "- I like you",
+            1.0
+        ],
+        [
+            "- I like you a lot",
+            1.0
+        ],
+        [
+            "- I think I like you",
+            1.0
+        ],
+        [
+            "- I like you too",
+            1.0
+        ],
+        [
+            "- I really like you",
+            1.0
+        ],
+        [
+            "- I like u",
+            1.0
+        ],
+        [
+            "- I like you very much",
+            1.0
+        ],
+        [
+            "- I like you so much",
+            1.0
+        ],
+        [
+            "- yeah I like you",
+            1.0
+        ],
+        [
+            "- yes I like you",
+            1.0
+        ],
+        [
+            "- okay I like you",
+            1.0
+        ],
+        [
+            "- you know I like you",
+            1.0
+        ],
+        [
+            "- that's why I like you",
+            1.0
+        ],
+        [
+            "- I just like you",
+            1.0
+        ],
+        [
+            "- hey I like you",
+            1.0
+        ],
+        [
+            "- I do like you",
+            1.0
+        ],
+        [
+            "- I like you already",
+            1.0
+        ],
+        [
+            "- I really really like you",
+            1.0
+        ],
+        [
+            "- I like you as you are",
+            1.0
+        ],
+        [
+            "- I also like you",
+            1.0
+        ],
+        [
+            "- I kinda like you",
+            1.0
+        ],
+        [
+            "- I like that about you",
+            1.0
+        ],
+        [
+            "- I like you you're cool",
+            1.0
+        ],
+        [
+            "- I like you very",
+            1.0
+        ],
+        [
+            "- I like you you're nice",
+            1.0
+        ],
+        [
+            "- I like you now",
+            1.0
+        ],
+        [
+            "- I like you so",
+            1.0
+        ],
+        [
+            "- I like you too much",
+            1.0
+        ],
+        [
+            "- I really do like you",
+            1.0
+        ]
+    ],
+    "7": [
+        [
+            "- what's your hobby",
+            1.0
+        ],
+        [
+            "- tell me about your hobby",
+            1.0
+        ],
+        [
+            "- do you have a hobby",
+            1.0
+        ],
+        [
+            "- what about your hobby",
+            1.0
+        ],
+        [
+            "- your hobby",
+            0.8648053076943993
+        ],
+        [
+            "- what are your hobbies",
+            1.0
+        ]
+    ],
+    "8": [
+        [
+            "- wanna hug",
+            1.0
+        ],
+        [
+            "- hug you",
+            0.8396970110814345
+        ],
+        [
+            "- do you want a hug",
+            1.0
+        ],
+        [
+            "- may I hug you",
+            1.0
+        ],
+        [
+            "- could you give me a hug",
+            1.0
+        ],
+        [
+            "- I want a hug",
+            0.8033355557485072
+        ],
+        [
+            "- hug",
+            0.8206276035517498
+        ],
+        [
+            "- hug me",
+            0.9335064363002259
+        ],
+        [
+            "- hugged",
+            0.8075279663523707
+        ],
+        [
+            "- hugging",
+            0.7518591029138209
+        ],
+        [
+            "- hugging me",
+            0.7059374217277573
+        ],
+        [
+            "- hugged me",
+            0.7623336179256553
+        ],
+        [
+            "- want a hug",
+            1.0
+        ],
+        [
+            "- a hug",
+            0.7231128177464907
+        ]
+    ],
+    "9": [
+        [
+            "- you're nuts",
+            1.0
+        ],
+        [
+            "- you are crazy",
+            1.0
+        ],
+        [
+            "- you're out of your mind",
+            0.8235853024905272
+        ],
+        [
+            "- you're so crazy",
+            1.0
+        ],
+        [
+            "- how crazy you are",
+            0.8490035267821989
+        ],
+        [
+            "- you're so out of your mind",
+            0.844187789730886
+        ],
+        [
+            "- I think you're crazy",
+            0.9627603731838067
+        ],
+        [
+            "- are you crazy",
+            0.9575554271453842
+        ],
+        [
+            "- are you insane",
+            1.0
+        ],
+        [
+            "- are you nuts",
+            0.8002984617087002
+        ],
+        [
+            "- you are insane",
+            1.0
+        ]
+    ]
+}
