@@ -3,25 +3,11 @@ import tensorflow_hub as hub
 import numpy as np
 import hdbscan
 import pprint
-from sklearn.datasets import make_blobs
 import json
+import sqlite3
 
 module_url = "./USELarge3"
 embed = hub.Module(module_url)
-
-# # Create graph and finalize (finalizing optional but recommended).
-# g = tf.Graph()
-# with g.as_default():
-#     # We will be feeding 1D tensors of text into the graph.
-#     text_input = tf.placeholder(dtype=tf.string, shape=[None])
-#     embed = hub.Module(module_url)
-#     embedded_text = embed(text_input)
-#     init_op = tf.group([tf.global_variables_initializer(), tf.tables_initializer()])
-# g.finalize()
-
-# # Create session and initialize.
-# session = tf.Session(graph=g)
-# session.run(init_op)
 
 # def phrase_embed(phrase):
 #     embedding = session.run(embedded_text, feed_dict={text_input: [phrase]}).tolist()
@@ -51,7 +37,6 @@ def generate_embeddings(intents):
 
 intents = get_intents('smalltalk.md')
 data = generate_embeddings(intents)
-# blobs, labels = make_blobs(n_samples=2000, n_features=10)
 
 data = similarity_matrix(data)
 
