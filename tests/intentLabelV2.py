@@ -1,14 +1,15 @@
 import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
+from pandas import DataFrame
 import hdbscan
-import sqlite3
+# import sqlite3
 
 module_url = "./USELarge3"
 embed = hub.Module(module_url)
 
-conn = sqlite3.connect('phrases.db')
-c = conn.cursor()
+# conn = sqlite3.connect('phrases.db')
+# c = conn.cursor()
 
 # c.execute(
 #     '''
@@ -36,7 +37,7 @@ def get_phrases(filename):
             else:
                 intent = True
             if intent == True and line.startswith('- '):
-                phrases.append(line.rstrip())
+                phrases.append(line.rstrip()[2:])
         return phrases
 
 def generate_embeddings(phrases):
@@ -54,10 +55,12 @@ cluster_probs = hdbscan.all_points_membership_vectors(clusterer)
 labels = clusterer.labels_
 label_probs = clusterer.probabilities_
 
-db_data = zip(phrases, embeddings, cluster_probs, labels, label_probs)
-print(db_data)
+http_data = zip(phrases, labels, label_probs)
 
-c.executemany('INSERT INTO phrases VALUES (?,?,?,?,?)', db_data)
+print(DataFrame(http_data))
+# db_data = zip(phrases, embeddings, cluster_probs, labels, label_probs)
 
-conn.commit()
-conn.close()
+# c.executemany('INSERT INTO phrases VALUES (?,?,?,?,?)', db_data)
+
+# conn.commit()
+# conn.close()

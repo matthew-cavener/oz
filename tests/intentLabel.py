@@ -26,7 +26,7 @@ def get_intents(filename):
             else:
                 intent = True
             if intent == True and line.startswith('- '):
-                intents.append(line.rstrip())
+                intents.append(line.rstrip()[2:])
         return intents
 
 def generate_embeddings(intents):
