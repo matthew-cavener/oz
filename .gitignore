@@ -127,3 +127,4 @@ dmypy.json
 
 # tfhub stuff
 tests/USELarge3
+hub_modules

@@ -3,9 +3,14 @@ import tensorflow_hub as hub
 import numpy as np
 from pandas import DataFrame
 import hdbscan
+from os import environ
 # import sqlite3
 
 module_url = "./USELarge3"
+
+environ['TFHUB_CACHE_DIR'] = "./USELarge3"
+# module_url = "https://tfhub.dev/google/universal-sentence-encoder-large/3"
+
 embed = hub.Module(module_url)
 
 # conn = sqlite3.connect('phrases.db')

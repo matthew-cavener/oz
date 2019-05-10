@@ -1,3 +1,8 @@
-hug==2.4.8
-gunicorn==19.9.0
-# rasa==0.1.1
+tensorflow
+hug
+gunicorn
+tensorflow_hub
+# rasa
+numpy
+pandas
+hdbscan
