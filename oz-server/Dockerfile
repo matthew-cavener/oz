@@ -1,10 +1,10 @@
 FROM tensorflow/tensorflow:latest-py3
-# RUN apk add --update --no-cache pkgconfig freetype png
+RUN apt-get update -q -y && apt-get install -q -y python3-dev
 
 WORKDIR /usr/src/app/oz-server
 COPY requirements.txt .
 COPY setup.py .
-RUN pip install -e .
+RUN pip3 install -e .
 
 COPY . ./
 
