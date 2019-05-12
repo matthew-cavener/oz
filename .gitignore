@@ -128,3 +128,6 @@ dmypy.json
 # tfhub stuff
 tests/USELarge3
 hub_modules
+
+# rasa models
+rasa_models/*

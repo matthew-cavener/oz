@@ -54,21 +54,20 @@ def intent_embed(body):
 @hug.post('/train')
 def train(body):
     utterances = body['utterances']
-    keys = ['text', 'intent', 'entities']
+    keys = ['text', 'intent']
     common_examples = []
     embeddings = session.run(embedded_text, feed_dict={text_input: utterances}).tolist()
     clusterer = hdbscan.HDBSCAN(
         metric='euclidean',
-        min_cluster_size=5,
+        min_cluster_size=3,
         prediction_data=True
         ).fit(np.inner(embeddings, embeddings))
 
-    # create list like: [ [utterance, label, [] ] with strings because stupid JSON can't handle ints, and rasa requires reading from a file...
+    # create list like: [ [utterance, label ] with strings because stupid JSON can't handle ints, and rasa requires reading from a file...
     labels_strings = list(map(str, clusterer.labels_))
     values = zip(
         utterances,
-        labels_strings,
-        [ [] for _ in range(len(utterances)) ])
+        labels_strings)
     for value in values:
         common_examples.append(dict(zip(keys, value)))
 
@@ -84,16 +83,17 @@ def train(body):
         json.dump(training_data, fp)
     trainer = Trainer(config.load("training_config.yml"), builder)
     trainer.train(load_data('training_data.json'))
-    model_directory = trainer.persist("./projects/default")
+    model_directory = trainer.persist("./rasa_models/")
     remove('training_data.json')
-    return "trained!"
+
+    return {
+        "intents found": clusterer.labels_.max(),
+        "unlabeled messages": list(clusterer.labels_).count(-1),
+        "total messages": len(utterances)
+    }
 
 
 @hug.post('/parse')
 def parse(utterance):
-    # trainer = Trainer(config.load("training_config.yml"), builder)
-    # model_directory = trainer.persist("./projects/default")
-    interpreter = Interpreter.load("./projects/default/default/model_20190512-055200", builder)
-    return interpreter.parse(utterance)
-
-
+    interpreter = Interpreter.load("./projects/default/model_20190512-062245", builder)
+    return interpreter.parse(str(utterance))
