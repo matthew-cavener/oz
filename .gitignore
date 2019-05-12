@@ -130,4 +130,4 @@ tests/USELarge3
 hub_modules
 
 # rasa models
-rasa_models/*
+rasa_models/

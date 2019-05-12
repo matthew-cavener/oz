@@ -7,6 +7,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
 
+from collections import defaultdict
 from rasa_nlu import load_data
 from rasa_nlu import config
 from rasa_nlu.components import ComponentBuilder
@@ -59,8 +60,11 @@ def train(body):
     embeddings = session.run(embedded_text, feed_dict={text_input: utterances}).tolist()
     clusterer = hdbscan.HDBSCAN(
         metric='euclidean',
-        min_cluster_size=3,
-        prediction_data=True
+        min_cluster_size=5,
+        min_samples=2,
+        prediction_data=True,
+        cluster_selection_method='eom',
+        alpha=0.8 # TODO: The docs say this should be left alone, and keep the default of 1, but playing with it seems to help, might be different with real data.
         ).fit(np.inner(embeddings, embeddings))
 
     # create list like: [ [utterance, label ] with strings because stupid JSON can't handle ints, and rasa requires reading from a file...
@@ -71,29 +75,37 @@ def train(body):
     for value in values:
         common_examples.append(dict(zip(keys, value)))
 
-    with open('training_data.json', 'w') as fp: # FIXME: rasa is dumb, and requires reading from a file. Make this a tempfile, or figure out how to get rasa to accept python dict.
-        training_data = {
-            "rasa_nlu_data": {
-                "common_examples": common_examples,
-                "regex_features": [],
-                "lookup_tables": [],
-                "entity_synonyms": []
-            }
-        }
-        json.dump(training_data, fp)
-    trainer = Trainer(config.load("training_config.yml"), builder)
-    trainer.train(load_data('training_data.json'))
-    model_directory = trainer.persist("./rasa_models/")
-    remove('training_data.json')
+    # with open('training_data.json', 'w') as fp: # FIXME: rasa is dumb, and requires reading from a file. Make this a tempfile, or figure out how to get rasa to accept python dict.
+    #     training_data = {
+    #         "rasa_nlu_data": {
+    #             "common_examples": common_examples,
+    #             "regex_features": [],
+    #             "lookup_tables": [],
+    #             "entity_synonyms": []
+    #         }
+    #     }
+    #     json.dump(training_data, fp)
+
+    # trainer = Trainer(config.load("training_config.yml"), builder)
+    # trainer.train(load_data('training_data.json'))
+    # model_directory = trainer.persist("./rasa_models/")
+    # remove('training_data.json')
+
+    intents = set([example['intent'] for example in common_examples])
+    message_groups = defaultdict(list)
+    for example in common_examples:
+        if example['intent'] in intents:
+            message_groups[example['intent']].append(example['text'])
 
     return {
         "intents found": clusterer.labels_.max(),
         "unlabeled messages": list(clusterer.labels_).count(-1),
-        "total messages": len(utterances)
+        "total messages": len(utterances),
+        "message groups": message_groups
     }
 
 
 @hug.post('/parse')
 def parse(utterance):
-    interpreter = Interpreter.load("./projects/default/model_20190512-062245", builder)
+    interpreter = Interpreter.load("./rasa_models/default/model_20190512-215337", builder)
     return interpreter.parse(str(utterance))
