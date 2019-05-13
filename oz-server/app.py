@@ -52,6 +52,8 @@ def intent_embed(body):
     intent_embeddings = dict(zip(body['utterances'], embeddings))
     return intent_embeddings
 
+# TODO: Probably should split up the embedding/clustering and nlu training. embedding/clustering take a couple of seconds, but nlu trining takes a fair bit longer.
+# Plus the HTTP API is better documented and better supported. Plus microservices! 
 @hug.post('/train')
 def train(body):
     utterances = body['utterances']
@@ -69,33 +71,32 @@ def train(body):
 
     # create list like: [ [utterance, label ] with strings because stupid JSON can't handle ints, and rasa requires reading from a file...
     labels_strings = list(map(str, clusterer.labels_))
-    values = zip(
-        utterances,
-        labels_strings)
+    values = zip(utterances, labels_strings)
     for value in values:
         common_examples.append(dict(zip(keys, value)))
 
-    # with open('training_data.json', 'w') as fp: # FIXME: rasa is dumb, and requires reading from a file. Make this a tempfile, or figure out how to get rasa to accept python dict.
-    #     training_data = {
-    #         "rasa_nlu_data": {
-    #             "common_examples": common_examples,
-    #             "regex_features": [],
-    #             "lookup_tables": [],
-    #             "entity_synonyms": []
-    #         }
-    #     }
-    #     json.dump(training_data, fp)
-
-    # trainer = Trainer(config.load("training_config.yml"), builder)
-    # trainer.train(load_data('training_data.json'))
-    # model_directory = trainer.persist("./rasa_models/")
-    # remove('training_data.json')
-
-    intents = set([example['intent'] for example in common_examples])
+    intents = set([example['intent'] for example in common_examples]) # searching in set is faster
     message_groups = defaultdict(list)
     for example in common_examples:
         if example['intent'] in intents:
             message_groups[example['intent']].append(example['text'])
+
+    common_examples = list(filter(lambda i: i['intent'] != "-1", common_examples))
+    with open('training_data.json', 'w') as fp: # FIXME: rasa is dumb, and requires reading from a file. Make this a tempfile, or figure out how to get rasa to accept python dict.
+        training_data = {
+            "rasa_nlu_data": {
+                "common_examples": common_examples,
+                "regex_features": [],
+                "lookup_tables": [],
+                "entity_synonyms": []
+            }
+        }
+        json.dump(training_data, fp)
+
+    trainer = Trainer(config.load("training_config.yml"), builder)
+    trainer.train(load_data('training_data.json'))
+    model_directory = trainer.persist("./rasa_models/")
+    remove('training_data.json')
 
     return {
         "intents found": clusterer.labels_.max(),
@@ -107,5 +108,5 @@ def train(body):
 
 @hug.post('/parse')
 def parse(utterance):
-    interpreter = Interpreter.load("./rasa_models/default/model_20190512-215337", builder)
+    interpreter = Interpreter.load("./rasa_models/default/model_20190513-023015", builder)
     return interpreter.parse(str(utterance))
