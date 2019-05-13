@@ -46,14 +46,6 @@ def phrase_embed(phrase):
     embedding = session.run(embedded_text, feed_dict={text_input: [phrase]}).tolist()
     return {phrase: embedding}
 
-@hug.post('/intents')
-def intent_embed(body):
-    embeddings = session.run(embedded_text, feed_dict={text_input: body['utterances']}).tolist()
-    intent_embeddings = dict(zip(body['utterances'], embeddings))
-    return intent_embeddings
-
-# TODO: Probably should split up the embedding/clustering and nlu training. embedding/clustering take a couple of seconds, but nlu trining takes a fair bit longer.
-# Plus the HTTP API is better documented and better supported. Plus microservices! 
 @hug.post('/train')
 def train(body):
     utterances = body['utterances']
@@ -75,12 +67,12 @@ def train(body):
     for value in values:
         common_examples.append(dict(zip(keys, value)))
 
-    intents = set([example['intent'] for example in common_examples]) # searching in set is faster
     message_groups = defaultdict(list)
     for example in common_examples:
-        if example['intent'] in intents:
-            message_groups[example['intent']].append(example['text'])
+        message_groups[example['intent']].append(example['text'])
 
+    # TODO: Probably should split up the embedding/clustering and nlu training. embedding/clustering take a couple of seconds, but nlu trining takes a fair bit longer.
+    # Plus the HTTP API is better documented and better supported. Plus microservices!
     common_examples = list(filter(lambda i: i['intent'] != "-1", common_examples))
     with open('training_data.json', 'w') as fp: # FIXME: rasa is dumb, and requires reading from a file. Make this a tempfile, or figure out how to get rasa to accept python dict.
         training_data = {
