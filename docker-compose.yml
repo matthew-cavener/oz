@@ -8,3 +8,16 @@ services:
     volumes:
       - ./oz-server:/usr/src/app/oz-server
     command: gunicorn app:__hug_wsgi__ --reload -b 0.0.0.0:8080 --timeout 60
+
+  rasa_nlu:
+      image: rasa/rasa_nlu:latest-tensorflow
+      ports:
+        - "5000:5000"
+      volumes:
+        - ./rasa_models/rasa_nlu:/app/models
+      command:
+        - start
+        - --path
+        - models
+        - --port
+        - "5000"

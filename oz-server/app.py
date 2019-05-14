@@ -8,14 +8,8 @@ import tensorflow_hub as hub
 import numpy as np
 
 from collections import defaultdict
-from rasa_nlu import load_data
-from rasa_nlu import config
-from rasa_nlu.components import ComponentBuilder
-from rasa_nlu.model import Trainer
-from rasa_nlu.model import Interpreter
 from os import remove
 
-builder = ComponentBuilder(use_cache=True)
 
 logger = logging.getLogger(__name__)
 
@@ -41,27 +35,15 @@ def health():
     """checks status of application"""
     return "OK"
 
-@hug.post('/phrase')
-def phrase_embed(phrase):
-    embedding = session.run(embedded_text, feed_dict={text_input: [phrase]}).tolist()
-    return {phrase: embedding}
-
-@hug.post('/intents')
-def intent_embed(body):
-    embeddings = session.run(embedded_text, feed_dict={text_input: body['utterances']}).tolist()
-    intent_embeddings = dict(zip(body['utterances'], embeddings))
-    return intent_embeddings
-
-# TODO: Probably should split up the embedding/clustering and nlu training. embedding/clustering take a couple of seconds, but nlu trining takes a fair bit longer.
-# Plus the HTTP API is better documented and better supported. Plus microservices! 
-@hug.post('/train')
-def train(body):
+# TODO: Make FE for semi-supervised labelling, send that off to nlu server
+@hug.post('/label')
+def label(body, metric):
     utterances = body['utterances']
-    keys = ['text', 'intent']
+    keys = ['text', 'intent', 'confidence']
     common_examples = []
     embeddings = session.run(embedded_text, feed_dict={text_input: utterances}).tolist()
     clusterer = hdbscan.HDBSCAN(
-        metric='euclidean',
+        metric=metric,
         min_cluster_size=5,
         min_samples=2,
         prediction_data=True,
@@ -69,44 +51,26 @@ def train(body):
         alpha=0.8 # TODO: The docs say this should be left alone, and keep the default of 1, but playing with it seems to help, might be different with real data.
         ).fit(np.inner(embeddings, embeddings))
 
-    # create list like: [ [utterance, label ] with strings because stupid JSON can't handle ints, and rasa requires reading from a file...
+    # create list like: [ [utterance, label ] with strings because json keys must be a string
     labels_strings = list(map(str, clusterer.labels_))
-    values = zip(utterances, labels_strings)
+    cluster_probs = hdbscan.all_points_membership_vectors(clusterer)
+    values = zip(utterances, labels_strings, cluster_probs)
     for value in values:
         common_examples.append(dict(zip(keys, value)))
 
-    intents = set([example['intent'] for example in common_examples]) # searching in set is faster
     message_groups = defaultdict(list)
     for example in common_examples:
-        if example['intent'] in intents:
-            message_groups[example['intent']].append(example['text'])
+        message_groups[example['intent']].append({
+            "phrase": example['text'],
+            "confidence": example['confidence']
+        })
 
-    common_examples = list(filter(lambda i: i['intent'] != "-1", common_examples))
-    with open('training_data.json', 'w') as fp: # FIXME: rasa is dumb, and requires reading from a file. Make this a tempfile, or figure out how to get rasa to accept python dict.
-        training_data = {
-            "rasa_nlu_data": {
-                "common_examples": common_examples,
-                "regex_features": [],
-                "lookup_tables": [],
-                "entity_synonyms": []
-            }
-        }
-        json.dump(training_data, fp)
-
-    trainer = Trainer(config.load("training_config.yml"), builder)
-    trainer.train(load_data('training_data.json'))
-    model_directory = trainer.persist("./rasa_models/")
-    remove('training_data.json')
-
+    unlabeled_messages = list(clusterer.labels_).count(-1)
+    total_messages = len(utterances)
     return {
         "intents found": clusterer.labels_.max(),
-        "unlabeled messages": list(clusterer.labels_).count(-1),
-        "total messages": len(utterances),
+        "unlabeled messages": unlabeled_messages,
+        "labeled messaged": total_messages - unlabeled_messages,
+        "total messages": total_messages,
         "message groups": message_groups
     }
-
-
-@hug.post('/parse')
-def parse(utterance):
-    interpreter = Interpreter.load("./rasa_models/default/model_20190513-023015", builder)
-    return interpreter.parse(str(utterance))
