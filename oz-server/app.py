@@ -7,28 +7,41 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
 
+from sklearn.preprocessing import normalize
 from collections import defaultdict
-from os import remove
+from flair.embeddings import WordEmbeddings, FlairEmbeddings, BertEmbeddings, DocumentPoolEmbeddings, Sentence
 
 
 logger = logging.getLogger(__name__)
 
-module_url = "https://tfhub.dev/google/universal-sentence-encoder-large/3"
-# module_url = "https://tfhub.dev/google/universal-sentence-encoder/2"
+# module_url = "https://tfhub.dev/google/universal-sentence-encoder-large/3"
+# # module_url = "https://tfhub.dev/google/universal-sentence-encoder/2"
 
-# Create graph and finalize (finalizing optional but recommended).
-g = tf.Graph()
-with g.as_default():
-    # We will be feeding 1D tensors of text into the graph.
-    text_input = tf.placeholder(dtype=tf.string, shape=[None])
-    embed = hub.Module(module_url)
-    embedded_text = embed(text_input)
-    init_op = tf.group([tf.global_variables_initializer(), tf.tables_initializer()])
-g.finalize()
+# # Create graph and finalize (finalizing optional but recommended).
+# g = tf.Graph()
+# with g.as_default():
+#     # We will be feeding 1D tensors of text into the graph.
+#     text_input = tf.placeholder(dtype=tf.string, shape=[None])
+#     embed = hub.Module(module_url)
+#     embedded_text = embed(text_input)
+#     init_op = tf.group([tf.global_variables_initializer(), tf.tables_initializer()])
+# g.finalize()
 
-# Create session and initialize.
-session = tf.Session(graph=g)
-session.run(init_op)
+# # Create session and initialize.
+# session = tf.Session(graph=g)
+# session.run(init_op)
+
+# initialize the word embeddings
+# glove_embedding = WordEmbeddings('glove')
+flair_embedding_forward = FlairEmbeddings('news-forward')
+flair_embedding_backward = FlairEmbeddings('news-backward')
+bert_embedding = BertEmbeddings('bert-base-cased')
+
+# initialize the document embeddings, mode = mean
+document_embeddings = DocumentPoolEmbeddings([bert_embedding,
+                                             flair_embedding_backward,
+                                             flair_embedding_forward],
+                                             mode='mean')
 
 @hug.get('/health')
 def health():
@@ -41,7 +54,15 @@ def label(body, metric):
     utterances = body['utterances']
     keys = ['text', 'intent', 'confidence']
     common_examples = []
-    embeddings = session.run(embedded_text, feed_dict={text_input: utterances}).tolist()
+    # embeddings = session.run(embedded_text, feed_dict={text_input: utterances}).tolist()
+
+    embeddings = []
+    for utterance in utterances:
+        sentence = Sentence(utterance, use_tokenizer=True)
+        document_embeddings.embed(sentence)
+        embeddings.append(sentence.get_embedding().numpy())
+    embeddings = normalize(embeddings, axis=1, norm='l2')
+
     clusterer = hdbscan.HDBSCAN(
         metric=metric,
         min_cluster_size=5,
