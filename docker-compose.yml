@@ -7,6 +7,7 @@ services:
       - "8080:8080"
     volumes:
       - ./oz-server:/usr/src/app/oz-server
+      - ./tests:/usr/src/app/tests
     command: gunicorn app:__hug_wsgi__ --reload -b 0.0.0.0:8080 --timeout 60
 
   rasa_nlu:

@@ -42,6 +42,7 @@ def label(body, metric):
     keys = ['text', 'intent', 'confidence']
     common_examples = []
     embeddings = session.run(embedded_text, feed_dict={text_input: utterances}).tolist()
+
     clusterer = hdbscan.HDBSCAN(
         metric=metric,
         min_cluster_size=5,
