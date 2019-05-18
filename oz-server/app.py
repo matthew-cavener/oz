@@ -2,6 +2,7 @@ import hug
 import hdbscan
 import logging
 import json
+import tf_sentencepiece
 
 import tensorflow as tf
 import tensorflow_hub as hub
@@ -13,16 +14,17 @@ from os import remove
 
 logger = logging.getLogger(__name__)
 
-module_url = "https://tfhub.dev/google/universal-sentence-encoder-large/3"
+# module_url = "https://tfhub.dev/google/universal-sentence-encoder-large/3"
 # module_url = "https://tfhub.dev/google/universal-sentence-encoder/2"
+module_url = "https://tfhub.dev/google/universal-sentence-encoder-xling-many/1"
 
 # Create graph and finalize (finalizing optional but recommended).
 g = tf.Graph()
 with g.as_default():
     # We will be feeding 1D tensors of text into the graph.
     text_input = tf.placeholder(dtype=tf.string, shape=[None])
-    embed = hub.Module(module_url)
-    embedded_text = embed(text_input)
+    xling_8_embed = hub.Module(module_url)
+    embedded_text = xling_8_embed(text_input)
     init_op = tf.group([tf.global_variables_initializer(), tf.tables_initializer()])
 g.finalize()
 
