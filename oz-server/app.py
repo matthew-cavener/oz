@@ -8,7 +8,8 @@ import tensorflow_hub as hub
 import numpy as np
 
 from collections import defaultdict
-from os import remove
+from sklearn import mixture
+from pandas import DataFrame
 
 
 logger = logging.getLogger(__name__)
@@ -37,23 +38,35 @@ def health():
 
 # TODO: Make FE for semi-supervised labelling, send that off to nlu server
 @hug.post('/label')
-def label(body, metric):
+def label(body, number_of_intents=None):
     utterances = body['utterances']
     keys = ['text', 'intent', 'confidence']
     common_examples = []
     embeddings = session.run(embedded_text, feed_dict={text_input: utterances}).tolist()
-    clusterer = hdbscan.HDBSCAN(
-        metric=metric,
-        min_cluster_size=5,
-        min_samples=2,
-        prediction_data=True,
-        cluster_selection_method='eom',
-        alpha=0.8 # TODO: The docs say this should be left alone, and keep the default of 1, but playing with it seems to help, might be different with real data.
-        ).fit(np.inner(embeddings, embeddings))
 
+    if number_of_intents == None:
+        clusterer = hdbscan.HDBSCAN(
+            metric='chebyshev',
+            min_cluster_size=5,
+            min_samples=2,
+            prediction_data=True,
+            cluster_selection_method='eom',
+            alpha=0.8 # TODO: The docs say this should be left alone, and keep the default of 1, but playing with it seems to help, might be different with real data.
+            ).fit(np.inner(embeddings, embeddings))
+        cluster_probs = hdbscan.all_points_membership_vectors(clusterer)
+        labels = clusterer.labels_
+        total_intents = labels.max() + 1
+    else:
+        clusterer = mixture.GaussianMixture(
+            n_components=int(number_of_intents),
+            covariance_type='full'
+            ).fit(embeddings)
+        cluster_probs = clusterer.predict_proba(embeddings)
+        labels = clusterer.predict(embeddings)
+        total_intents = max(labels) + 1
+
+    labels_strings = list(map(str, labels))
     # create list like: [ [utterance, label ] with strings because json keys must be a string
-    labels_strings = list(map(str, clusterer.labels_))
-    cluster_probs = hdbscan.all_points_membership_vectors(clusterer)
     values = zip(utterances, labels_strings, cluster_probs)
     for value in values:
         common_examples.append(dict(zip(keys, value)))
@@ -65,10 +78,11 @@ def label(body, metric):
             "confidence": example['confidence']
         })
 
-    unlabeled_messages = list(clusterer.labels_).count(-1)
+    unlabeled_messages = labels_strings.count("-1")
     total_messages = len(utterances)
     return {
-        "intents found": clusterer.labels_.max(),
+        "label strings": labels_strings,
+        "intents found": total_intents,
         "unlabeled messages": unlabeled_messages,
         "labeled messaged": total_messages - unlabeled_messages,
         "total messages": total_messages,

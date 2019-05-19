@@ -9,7 +9,7 @@ RUN pip3 install -e .
 COPY . ./
 
 ENV TFHUB_CACHE_DIR=/usr/src/app/oz-server/hub_modules
-ENV PYTHONUNBUFFERED=0
+ENV PYTHONUNBUFFERED=1
 
 RUN useradd -ms /bin/bash oz
 USER oz
